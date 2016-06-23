@@ -1,0 +1,703 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<useCaseModelRoot xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm5="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/dsltools/LogicalClassDesigner" xmlns:dm10="http://schemas.microsoft.com/dsltools/SimpleShapesModel" dslVersion="1.0.0.0" Id="b5bb0baf-1dff-4cfd-a2f5-0647a03c3e62" name="UMLUseCaseDiagramServer" linkedPackageId="e49a15ad-140b-4c2a-84d5-a98c6ae52dfa" xmlns="http://schemas.microsoft.com/dsltools/UseCaseModel">
+  <packagedElements>
+    <useCaseModelRootHasTypes>
+      <actor Id="22c94aae-4350-4bb9-8ae4-6b3f7cc4bf91" name="Server" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="f24953bd-03df-451a-8e64-60a708ad29e3" />
+        <targetEnds>
+          <association Id="fbbd78e7-1ee0-46d5-9021-8acd9f808650" isDerived="false" sourceEndRoleName="Server" targetEndRoleName="Otrzymywanie informacji od clienta" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="7e3f5bec-e3f0-45cd-a699-3bea290a77a5" LastKnownName="Otrzymywanie informacji od clienta" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="aca7fa68-5152-484c-86eb-e3476e80ae3c" name="Server" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="af410976-bbf2-4c06-b1f5-90daa0075245" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="fcece599-a628-440f-97ec-60356bfffa5d" name="Otrzymywanie informacji od clienta" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="da74b07d-6a34-40eb-b71d-191014648b49" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="f5d72533-912b-4bbd-aadf-db9ddce92cee" />
+          </association>
+          <association Id="2e8a08cd-1df0-4ee1-b25b-ae8f31423a1d" isDerived="false" sourceEndRoleName="Server" targetEndRoleName="Zapisywanie danych w bazie danych" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="bbebf016-74e2-4fb7-b188-0accd149cdec" LastKnownName="Zapisywanie danych w bazie danych" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="ee2458e2-337a-423f-b876-2931e413b07a" name="Server" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="9d302faf-2473-4d94-831f-6b6f757a5665" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="1d31a7ab-83c9-4136-85f2-c410c4ed09b6" name="Zapisywanie danych w bazie danych" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="49893cc3-04eb-48f4-819c-b89c8227013d" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="6068eec8-bd21-4617-8070-585368d1a4e6" />
+          </association>
+          <association Id="d3facd8d-856a-4566-aa4d-f9bb16f000dc" isDerived="false" sourceEndRoleName="Server" targetEndRoleName="Zarządzanie grami" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="b0f8e1ca-64e9-4724-b14c-075a66f9de1e" LastKnownName="Zarządzanie grami" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="6df1ab38-efa7-439e-9673-aedaa111d30d" name="Server" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="6f9c3d35-d779-4d81-a18e-2248b8267c02" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="97f6b3db-cb77-4fbf-9bc1-8e65ceb4231f" name="Zarządzanie grami" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="45b74b57-2449-47c9-9258-93d17308ad98" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="e32099ab-53c4-4aa3-873f-ba0462f0f4ce" />
+          </association>
+          <association Id="d346fda4-9ee5-4092-bcbe-5f1cb4f348ed" isDerived="false" sourceEndRoleName="Server" targetEndRoleName="Wysyłanie informacji do clienta " isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="408e7641-827a-40ed-a8bd-4ad0cba7499f" LastKnownName="Wysyłanie informacji do clienta " />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="fbc70cf5-4077-481d-83f8-d4acca7d1574" name="Server" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="aa11c6da-faa1-49c8-8d87-3ec8ddf8dae5" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="29583239-390e-4be4-8d29-9620037bf585" name="Wysyłanie informacji do clienta " isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="d6abd8a4-f53c-46ba-82b3-f6026979a569" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="ac91ad00-8b89-4891-a7b5-026b8dab9a95" />
+          </association>
+          <association Id="8520a6d3-31ab-4947-bac8-73a0b5d09580" isDerived="false" sourceEndRoleName="Server" targetEndRoleName="Obliczanie rankingu użytkownika" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="94781d63-a3bf-4d33-9af4-31fb01ab831d" LastKnownName="Obliczanie rankingu użytkownika" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="b56eff89-e8d1-437b-82b9-cc286d7c9351" name="Server" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="5a332e9f-9cf4-40e8-aa89-c11bd5b861df" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="a44c0a3f-5672-4446-9026-aba3f954321b" name="Obliczanie rankingu użytkownika" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="e38fc5b1-e210-4849-a73f-ba80d1cf17f6" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="4d01d26f-fd9d-4988-a614-c3868943c987" />
+          </association>
+          <association Id="3929f7d3-d3c1-49c0-a4bd-e3bc0a829bb3" isDerived="false" sourceEndRoleName="Server" targetEndRoleName="Obliczanie punktów za grę" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="5836ddf7-476c-477e-8034-067d1bea9da4" LastKnownName="Obliczanie punktów za grę" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="a1c7d494-892b-4d45-8cbe-7ca00eb1ae7e" name="Server" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="b8816257-af4d-4c95-bddf-bcaf8020e132" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="cccf74a6-4540-4b96-ba58-bcfc73394dbe" name="Obliczanie punktów za grę" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="fb906935-2216-411f-8f72-45762a947762" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="ecdbc640-95b4-42ce-80c8-2e2376585f8b" />
+          </association>
+          <association Id="caca9c40-6ed7-47f3-bef1-fd5af42223ba" isDerived="false" sourceEndRoleName="Server" targetEndRoleName="Aktualizowanie konta użytkownika" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="b85d27bf-7940-4df3-bba3-295f967ceed2" LastKnownName="Aktualizowanie danych użytkownika" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="af57d55b-efc2-4cff-a4f6-4ba9aaecbb9f" name="Server" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="88eaaac7-3907-4ffd-8d90-c406887850b9" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="981074ae-0a95-46a9-8fad-a69689347cf1" name="Aktualizowanie konta użytkownika" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="0e2d5731-de80-4c04-9a22-de4dcb65c316" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="eb0a867c-407c-459f-ba09-8985db21cca1" />
+          </association>
+          <association Id="3412cb82-f7f9-4a5d-9fa8-3a47790a736b" isDerived="false" sourceEndRoleName="Server" targetEndRoleName="Transmitowanie wideorozmowy" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="c8c06675-80b5-4119-9b9f-17b279239cc2" LastKnownName="Transmitowanie wideorozmowy" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="827aeb40-2159-4a83-928d-4b853f782984" name="Server" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="f3980d3f-145a-4f8c-aeb0-36f1b48c867c" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="a4b8fe02-2cf5-40fc-8338-46e5240451ee" name="Transmitowanie wideorozmowy" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="f98579f9-56f3-4348-9512-cb419fda57a9" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="7158f89c-1993-45e0-9acd-a18350eb7dfe" />
+          </association>
+        </targetEnds>
+      </actor>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <subsystem Id="3b1d540c-e503-4ed6-8769-783e31c8df1c" name="Server" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="0650e670-45cc-44e7-ace3-dca8657926fc" />
+      </subsystem>
+    </useCaseModelRootHasTypes>
+    <packageHasNamedElement>
+      <useCase Id="7e3f5bec-e3f0-45cd-a699-3bea290a77a5" name="Otrzymywanie informacji od clienta" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="44d60c1b-08b5-4e2f-bcab-41beb1900fdf" />
+        <subjects>
+          <subsystemMoniker Id="3b1d540c-e503-4ed6-8769-783e31c8df1c" LastKnownName="Server" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="408e7641-827a-40ed-a8bd-4ad0cba7499f" name="Wysyłanie informacji do clienta " isAbstract="false" isLeaf="false">
+        <elementDefinition Id="5197799d-0679-455e-a59d-95107ca97770" />
+        <subjects>
+          <subsystemMoniker Id="3b1d540c-e503-4ed6-8769-783e31c8df1c" LastKnownName="Server" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="b0f8e1ca-64e9-4724-b14c-075a66f9de1e" name="Zarządzanie grami" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="e6e263be-5136-4fac-9806-0a39fcb30064" />
+        <subjects>
+          <subsystemMoniker Id="3b1d540c-e503-4ed6-8769-783e31c8df1c" LastKnownName="Server" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <useCaseModelRootHasTypes>
+      <actor Id="d885238c-c5d1-4110-93fd-ac4be218a2f1" name="Baza danych" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="497b41d3-c81d-4dca-841c-be274eae3ac5" />
+        <targetEnds>
+          <association Id="1d993ff3-1b89-4ca7-ab4c-935f864e9328" isDerived="false" sourceEndRoleName="Database server" targetEndRoleName="Manage backup data" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="c5e63257-df6f-46b1-98b1-a4a9a5ea9963" LastKnownName="Zapisywanie kopii zapasowej" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="6d7d9ba1-ac44-48a3-92c5-3dde07e98d66" name="Database server" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="f98f2d77-0cef-4ec1-b591-334a3b8b606b" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="221d9c84-a2ac-4d2f-843d-ab050207d6ed" name="Manage backup data" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="3377fff3-b6f6-48e6-a926-86e33deaa919" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="f0c5e8cd-52ec-4cee-86cb-871c22f767e0" />
+          </association>
+          <association Id="03c012b1-8f90-4c73-a006-14e1874455e0" isDerived="false" sourceEndRoleName="Database server" targetEndRoleName="Save logs" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="c21e6544-1e40-4b82-b118-1518b36bf2bb" LastKnownName="Zapisywanie logów" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="2d438c0b-4acd-4141-8c95-5de5b6d2b558" name="Database server" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="dc2c4045-8500-4a5c-a5fb-f479bb12e3a7" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="666ac13a-71c5-4614-acb0-d7bd7226e714" name="Save logs" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="ed071a84-97d1-4cf1-a7d2-47ae7655eddc" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="99a06c7f-1464-4dcd-92a7-a6616cc9ae1e" />
+          </association>
+          <association Id="3b211bdb-9775-4a82-a12f-3cdd3004947f" isDerived="false" sourceEndRoleName="Database server" targetEndRoleName="Validate user" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="3b38fc07-ed37-4ab0-b103-d91c257e22e4" LastKnownName="Uwierzytelnianie użytkownika" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="33666484-6057-42f9-bc2a-65e4ab8bd184" name="Database server" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="268e128a-c0e9-406c-83c2-7106e432fe42" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="aa9c9be1-324b-4c6d-849a-d4fe6f22aaa5" name="Validate user" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="ca438175-1d34-452c-b328-043ebef5323e" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="fe999aa1-0c8b-44be-9034-9da31443d668" />
+          </association>
+          <association Id="23b0f7f0-509d-431a-8135-eaa9297d19b6" isDerived="false" sourceEndRoleName="Baza danych" targetEndRoleName="Zapisywanie rankingu użytkownika" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="24365594-5ced-4771-89ab-13d26093ffac" LastKnownName="Zapisywanie rankingu użytkownika" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="0882a1ef-91f4-4a76-91f4-378dd058fd50" name="Baza danych" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="46b1d865-231b-41e6-9277-0d293713b5d6" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="9759f09a-b8d6-4b95-b671-d37e3b1727f5" name="Zapisywanie rankingu użytkownika" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="15440994-f019-4af6-9af2-f1a06fa2f358" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="6258ad7c-c98f-4cd2-be38-4c7e191c6cc1" />
+          </association>
+          <association Id="9185ad7a-166f-4033-ae9a-f63fd0e9516c" isDerived="false" sourceEndRoleName="Baza danych" targetEndRoleName="Zapisywanie punktów użytkowników" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="f34a7864-bdf1-455a-95f3-e307dd81deb7" LastKnownName="Zapisywanie punktów użytkowników" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="3d5c49be-db11-4845-93a6-d3efeada0370" name="Baza danych" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="98c80f67-120a-4886-b3db-78660afbc15d" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="b2b47a6a-87ab-43f2-a910-f1ea026e5fef" name="Zapisywanie punktów użytkowników" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="5f124344-1eee-4da7-9809-b0d1a21fd43c" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="0a8e7f1c-28f9-4018-a247-0e6a70c5c59b" />
+          </association>
+          <association Id="5b794727-9713-4f89-8d67-cc6cdeea623e" isDerived="false" sourceEndRoleName="Baza danych" targetEndRoleName="Zapisywanie loginów i haseł użytkowników" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="7d8fc10e-d3db-406f-962d-6adc05b7e253" LastKnownName="Zapisywanie loginów i haseł i adresów e-mail użytkowników" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="543b63f8-d9c5-419e-8c6d-6a6c6465eb1c" name="Baza danych" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="f9b2100e-b403-447a-8677-9e3aa773a83e" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="e7b2b958-e8b2-49a1-a9e9-b84fbff87756" name="Zapisywanie loginów i haseł użytkowników" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="6f6070c3-4ce1-4a12-be7b-95534e39f1f7" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="3d655036-e091-4549-823e-af1cfb5928fc" />
+          </association>
+          <association Id="94d30e47-e5a1-4dc6-8cb9-526111442b67" isDerived="false" sourceEndRoleName="Baza danych" targetEndRoleName="Zapisywanie historii pojedynków" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="2c44d012-3bd0-42a5-885f-b14b3ff8d02a" LastKnownName="Zapisywanie historii pojedynków" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="427ffe6a-d505-4b12-8bb9-0687581791a1" name="Baza danych" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="06106656-40f4-4513-9e26-ea298a66a325" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="75cc106a-db10-4896-9f86-cd8887fd81f3" name="Zapisywanie historii pojedynków" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="c8692307-0420-4550-a0b0-f09d8a73dbc0" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="842b9a9b-2ec8-4c5a-aaf6-4c33f4df43fa" />
+          </association>
+          <association Id="c3f44475-107f-4b18-a671-05d4b196684e" isDerived="false" sourceEndRoleName="Baza danych" targetEndRoleName="Dodawanie/Usuwanie użytkownika" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="2397182e-b009-4c72-84f6-bb455de7d949" LastKnownName="Dodawanie/Usuwanie użytkownika" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="0509cf1e-c98c-49a2-a10d-32ec72408658" name="Baza danych" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="3d462288-40e5-445c-8f4c-970c73553cac" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="b58a7e79-f49c-4b69-b2b3-7a7c7808fe68" name="Dodawanie/Usuwanie użytkownika" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="408c72e6-6152-40af-bfa6-a3c75428e338" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="621065bb-1552-4574-b9d8-eb378ee81328" />
+          </association>
+        </targetEnds>
+      </actor>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <subsystem Id="86eb6805-3504-4972-97a5-673dbf2bbdd0" name="Kontekst bazy danych" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="2e0e33bd-8242-4392-b859-79d8500ac15f" />
+      </subsystem>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="78a5d017-d1c1-4bb2-9d09-fcde89556dea" name="Zapisywanie danych" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="f317d512-6f4f-4497-a5c4-899673486905" />
+        <subjects>
+          <subsystemMoniker Id="86eb6805-3504-4972-97a5-673dbf2bbdd0" LastKnownName="Kontekst bazy danych" />
+        </subjects>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="c5e63257-df6f-46b1-98b1-a4a9a5ea9963" name="Zapisywanie kopii zapasowej" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="b3b8d206-ef7b-48f3-8a64-71942e8386c3" />
+        <extendedCases>
+          <extend Id="52f6bbe2-289e-4636-afb0-a74775777bc4">
+            <useCaseMoniker Id="78a5d017-d1c1-4bb2-9d09-fcde89556dea" LastKnownName="Zapisywanie danych" />
+            <elementDefinition Id="b4758352-2575-42a5-9918-0b3d71d9b312" />
+          </extend>
+        </extendedCases>
+        <subjects>
+          <subsystemMoniker Id="86eb6805-3504-4972-97a5-673dbf2bbdd0" LastKnownName="Kontekst bazy danych" />
+        </subjects>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="970a7988-1671-48d6-bdfb-c772bc8800c6" name="Zapisywanie danych użytkowników" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="9bc04e44-1b5a-45ae-aeed-f71d3988ef80" />
+        <extendedCases>
+          <extend Id="df6a5d03-bfbf-44d9-b575-6a441da4346f">
+            <useCaseMoniker Id="78a5d017-d1c1-4bb2-9d09-fcde89556dea" LastKnownName="Zapisywanie danych" />
+            <elementDefinition Id="9c744ab2-1b49-468d-86e1-3191b942009d" />
+          </extend>
+        </extendedCases>
+        <subjects>
+          <subsystemMoniker Id="86eb6805-3504-4972-97a5-673dbf2bbdd0" LastKnownName="Kontekst bazy danych" />
+        </subjects>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="c21e6544-1e40-4b82-b118-1518b36bf2bb" name="Zapisywanie logów" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="18974e57-79c2-471f-9576-34263b007c59" />
+        <extendedCases>
+          <extend Id="fd2fde78-186e-4782-8c41-ea2b6a0af145">
+            <useCaseMoniker Id="78a5d017-d1c1-4bb2-9d09-fcde89556dea" LastKnownName="Zapisywanie danych" />
+            <elementDefinition Id="3bdf016d-56cf-46b3-b310-aeec397b19d8" />
+          </extend>
+        </extendedCases>
+        <subjects>
+          <subsystemMoniker Id="86eb6805-3504-4972-97a5-673dbf2bbdd0" LastKnownName="Kontekst bazy danych" />
+        </subjects>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="1524312b-d449-434c-9e02-f0e279a0b27f" name="Włączanie" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="42580c2d-815a-4a26-b6d3-f61da76e6cef" />
+        <subjects>
+          <subsystemMoniker Id="86eb6805-3504-4972-97a5-673dbf2bbdd0" LastKnownName="Kontekst bazy danych" />
+        </subjects>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="21fe0950-01c0-4007-86f5-79578bb2e5d0" name="Wyłączanie" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="d5eb62a9-0b4d-4738-a0ad-4123d4cfcba7" />
+        <subjects>
+          <subsystemMoniker Id="86eb6805-3504-4972-97a5-673dbf2bbdd0" LastKnownName="Kontekst bazy danych" />
+        </subjects>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="6879045e-0447-4ec2-9e49-da15af03da05" name="Zarządzanie logami" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="3354a181-c32e-4c22-b776-bdeafe12d746" />
+        <subjects>
+          <subsystemMoniker Id="86eb6805-3504-4972-97a5-673dbf2bbdd0" LastKnownName="Kontekst bazy danych" />
+        </subjects>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="2397182e-b009-4c72-84f6-bb455de7d949" name="Dodawanie/Usuwanie użytkownika" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="b533c9e3-2033-4b69-9238-d54fde66499e" />
+        <subjects>
+          <subsystemMoniker Id="86eb6805-3504-4972-97a5-673dbf2bbdd0" LastKnownName="Kontekst bazy danych" />
+        </subjects>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="3b38fc07-ed37-4ab0-b103-d91c257e22e4" name="Uwierzytelnianie użytkownika" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="a02b07b3-a7ba-4461-9945-8eac0af3958b" />
+        <subjects>
+          <subsystemMoniker Id="86eb6805-3504-4972-97a5-673dbf2bbdd0" LastKnownName="Kontekst bazy danych" />
+        </subjects>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <packageHasNamedElement>
+      <useCase Id="7d8fc10e-d3db-406f-962d-6adc05b7e253" name="Zapisywanie loginów i haseł i adresów e-mail użytkowników" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="be77cc84-bb62-4d32-8650-ed4548a19646" />
+        <extendedCases>
+          <extend Id="1668cfdf-e4e2-4f54-a779-c7891ac33473">
+            <useCaseMoniker Id="970a7988-1671-48d6-bdfb-c772bc8800c6" LastKnownName="Zapisywanie danych użytkowników" />
+            <elementDefinition Id="99481129-0761-4f43-af9b-956d4882aafd" />
+          </extend>
+        </extendedCases>
+        <subjects>
+          <subsystemMoniker Id="86eb6805-3504-4972-97a5-673dbf2bbdd0" LastKnownName="Kontekst bazy danych" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="f34a7864-bdf1-455a-95f3-e307dd81deb7" name="Zapisywanie punktów użytkowników" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="a6e89d2d-84f5-453b-b8b4-7896dc5d2cf2" />
+        <extendedCases>
+          <extend Id="bf97e87b-f1f6-463e-be7f-e0fe76e7972c">
+            <useCaseMoniker Id="970a7988-1671-48d6-bdfb-c772bc8800c6" LastKnownName="Zapisywanie danych użytkowników" />
+            <elementDefinition Id="849cce89-71fb-4f2a-949d-83a0cbd5f19e" />
+          </extend>
+        </extendedCases>
+        <subjects>
+          <subsystemMoniker Id="86eb6805-3504-4972-97a5-673dbf2bbdd0" LastKnownName="Kontekst bazy danych" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="24365594-5ced-4771-89ab-13d26093ffac" name="Zapisywanie rankingu użytkownika" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="5940964e-9e37-4fad-9106-d9b8441cee13" />
+        <extendedCases>
+          <extend Id="2a1dfba5-1d72-461e-a735-b71f89406200">
+            <useCaseMoniker Id="970a7988-1671-48d6-bdfb-c772bc8800c6" LastKnownName="Zapisywanie danych użytkowników" />
+            <elementDefinition Id="162cbf9b-2f6b-417b-92d1-4ef4ea438d9e" />
+          </extend>
+        </extendedCases>
+        <subjects>
+          <subsystemMoniker Id="86eb6805-3504-4972-97a5-673dbf2bbdd0" LastKnownName="Kontekst bazy danych" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="2c44d012-3bd0-42a5-885f-b14b3ff8d02a" name="Zapisywanie historii pojedynków" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="8d60e35a-ccd9-4e98-bbec-cc457d10bbcd" />
+        <extendedCases>
+          <extend Id="fb5118e8-ae31-4950-9b2d-4f27f004be58">
+            <useCaseMoniker Id="970a7988-1671-48d6-bdfb-c772bc8800c6" LastKnownName="Zapisywanie danych użytkowników" />
+            <elementDefinition Id="821a3b61-e1d4-429c-a942-59c424497463" />
+          </extend>
+        </extendedCases>
+        <subjects>
+          <subsystemMoniker Id="86eb6805-3504-4972-97a5-673dbf2bbdd0" LastKnownName="Kontekst bazy danych" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <useCaseModelRootHasTypes>
+      <actor Id="71356f20-89ba-4c9b-9dfb-0aed57188c63" name="Admin" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="49a32240-5bc3-41aa-a3b5-16a969a816ee" />
+        <targetEnds>
+          <association Id="53597942-8f1b-49b9-8168-562ee0c67a83" isDerived="false" sourceEndRoleName="Admin" targetEndRoleName="Read logs" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="6879045e-0447-4ec2-9e49-da15af03da05" LastKnownName="Zarządzanie logami" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="320b581d-dac9-4f3a-8c33-721806161085" name="Admin" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="6298203a-e845-405a-b6f6-1414c65539da" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="497fe376-00c3-487b-923b-bcbf045baab8" name="Read logs" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="49c1e9ff-041d-43f2-b203-944fc0f1422a" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="c4e54edc-09bb-4552-b6e9-e65fd4339e94" />
+          </association>
+          <association Id="9df38ced-b8d5-411c-bf5d-284983cbf994" isDerived="false" sourceEndRoleName="Admin" targetEndRoleName="Włączanie" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="1524312b-d449-434c-9e02-f0e279a0b27f" LastKnownName="Włączanie" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="3487b498-e3a5-4f02-8b2a-4315bb04cfaf" name="Admin" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="06467a77-7fa2-4bfd-9c3c-b021b96a0534" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="6733246b-7c98-49bf-a7d1-aa056f8c9657" name="Włączanie" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="fe761da1-eba4-4d23-b7a4-4293de3c8993" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="5e29439e-c0e7-49e8-87f5-defe60981406" />
+          </association>
+          <association Id="5c402491-e407-4343-afa2-e8245d9e90ad" isDerived="false" sourceEndRoleName="Admin" targetEndRoleName="Wyłączanie" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="21fe0950-01c0-4007-86f5-79578bb2e5d0" LastKnownName="Wyłączanie" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="8fbdc9e7-f172-459f-94a8-e1f38a22db86" name="Admin" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="073e6fa3-9a7b-4d30-9122-c4d98956808e" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="8a670e9d-ca1e-4b36-9cfd-059c786f7a3e" name="Wyłączanie" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="4cb07128-d640-454e-ad1e-941958e292a0" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="a43358e3-46bd-47f6-9802-2a5e61e5fc23" />
+          </association>
+          <association Id="d2e9f641-0fcc-4a37-8372-106f2085da60" isDerived="false" sourceEndRoleName="Admin" targetEndRoleName="Włączanie" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="47b377b5-52ca-493c-9fff-9b2a1a032b43" LastKnownName="Włączanie" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="525e3d0a-b5e5-4678-8b44-fbbe457431e9" name="Admin" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="68d7a95a-f5cd-40e6-9bb3-f3e4d4d61081" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="6aeed836-4f50-4966-a68f-93587484f7ec" name="Włączanie" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="eb38df65-8dcc-43be-8bf9-1c6d8dde3a2e" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="1da28e9f-7cfa-40e5-88e5-e91e99d9e759" />
+          </association>
+          <association Id="36179e36-7c6b-4c49-a0c2-6d2d091298b6" isDerived="false" sourceEndRoleName="Admin" targetEndRoleName="Wyłączanie" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="d4e5119a-0097-496a-ae7d-524c9359e295" LastKnownName="Wyłączanie" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="6d71d6bd-c931-47dc-afff-30db22776b34" name="Admin" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="79b84a6a-2618-4686-9401-ef5f28cb864a" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="ac4b6863-6166-42b0-a970-27e08953cc43" name="Wyłączanie" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="587f3c26-8bb0-42f7-a0e0-3322324b3138" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="95cae4b7-5730-47a3-a512-8613737e63a3" />
+          </association>
+        </targetEnds>
+      </actor>
+    </useCaseModelRootHasTypes>
+    <packageHasNamedElement>
+      <useCase Id="50d15eed-1db7-4358-8dfb-b45cfc4eb748" name="Otrzymywanie wykonanego ruchu od clienta" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="179c0442-34f1-45d4-ae88-4e4b09638307" />
+        <extendedCases>
+          <extend Id="d8014d31-7a95-405c-a210-fb5067b1fbec">
+            <useCaseMoniker Id="7e3f5bec-e3f0-45cd-a699-3bea290a77a5" LastKnownName="Otrzymywanie informacji od clienta" />
+            <elementDefinition Id="5c7e37c4-c519-466e-9fab-94f68d75d74e" />
+          </extend>
+        </extendedCases>
+        <subjects>
+          <subsystemMoniker Id="3b1d540c-e503-4ed6-8769-783e31c8df1c" LastKnownName="Server" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="3f294a2f-173b-4b0c-8a66-aa69c463d45b" name="Wysyłanie wykonanego ruch do clienta" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="464b9fb6-2981-404a-834f-672b5ab47535" />
+        <extendedCases>
+          <extend Id="35392e4f-16c6-4d9d-8664-65220f2d9776">
+            <useCaseMoniker Id="408e7641-827a-40ed-a8bd-4ad0cba7499f" LastKnownName="Wysyłanie informacji do clienta " />
+            <elementDefinition Id="b4877862-4834-4445-aad4-af862b24bf55" />
+          </extend>
+        </extendedCases>
+        <subjects>
+          <subsystemMoniker Id="3b1d540c-e503-4ed6-8769-783e31c8df1c" LastKnownName="Server" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="e0b69ddc-c59b-4284-a421-df3d41ebe1bc" name="Otrzymywanie stanu gry" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="36cb0027-79bb-46fb-ab57-b84a0492f561" />
+        <extendedCases>
+          <extend Id="909a1394-b35c-46f5-a2b7-e8e0d7f863b4">
+            <useCaseMoniker Id="7e3f5bec-e3f0-45cd-a699-3bea290a77a5" LastKnownName="Otrzymywanie informacji od clienta" />
+            <elementDefinition Id="842cd60b-f96f-4029-87ca-e9feb1a4c6fa" />
+          </extend>
+        </extendedCases>
+        <subjects>
+          <subsystemMoniker Id="3b1d540c-e503-4ed6-8769-783e31c8df1c" LastKnownName="Server" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="ec26a47d-80f9-4df5-9de4-c59cf5dfa808" name="Wysyłanie stanu gry" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="ff806ca6-4ded-4785-8948-e90f150fa829" />
+        <extendedCases>
+          <extend Id="aab64854-ec5e-4fa4-80ef-0e1ccf154ce5">
+            <useCaseMoniker Id="408e7641-827a-40ed-a8bd-4ad0cba7499f" LastKnownName="Wysyłanie informacji do clienta " />
+            <elementDefinition Id="25a380cf-1654-41d4-ad02-a95740c99f97" />
+          </extend>
+        </extendedCases>
+        <subjects>
+          <subsystemMoniker Id="3b1d540c-e503-4ed6-8769-783e31c8df1c" LastKnownName="Server" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="bbebf016-74e2-4fb7-b188-0accd149cdec" name="Zapisywanie danych w bazie danych" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="04ecfd6d-f827-4c9e-b002-276bb7ee232f" />
+        <subjects>
+          <subsystemMoniker Id="3b1d540c-e503-4ed6-8769-783e31c8df1c" LastKnownName="Server" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="47b377b5-52ca-493c-9fff-9b2a1a032b43" name="Włączanie" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="255620d7-6c9e-41a0-b1ab-cd1c7a60c7ad" />
+        <subjects>
+          <subsystemMoniker Id="3b1d540c-e503-4ed6-8769-783e31c8df1c" LastKnownName="Server" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="d4e5119a-0097-496a-ae7d-524c9359e295" name="Wyłączanie" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="b85ef47f-9f1f-4437-8c00-4c3a49c26f9b" />
+        <subjects>
+          <subsystemMoniker Id="3b1d540c-e503-4ed6-8769-783e31c8df1c" LastKnownName="Server" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="7123ff38-95ef-4bd1-b785-446ff5b698e9" name="Wysyłanie wiadomości pomiędzy clientami" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="7e2d8cd6-1672-4af0-96d8-f0f4ef04450a" />
+        <extendedCases>
+          <extend Id="d9284f09-ceb1-4cd9-9aae-a03fa6acbaec">
+            <useCaseMoniker Id="408e7641-827a-40ed-a8bd-4ad0cba7499f" LastKnownName="Wysyłanie informacji do clienta " />
+            <elementDefinition Id="5ecc5b07-2485-43d8-abeb-77baa0e0139b" />
+          </extend>
+        </extendedCases>
+        <subjects>
+          <subsystemMoniker Id="3b1d540c-e503-4ed6-8769-783e31c8df1c" LastKnownName="Server" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="5836ddf7-476c-477e-8034-067d1bea9da4" name="Obliczanie punktów za grę" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="600a1091-825c-4360-9bf9-b8f6af95c9a4" />
+        <subjects>
+          <subsystemMoniker Id="3b1d540c-e503-4ed6-8769-783e31c8df1c" LastKnownName="Server" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="b85d27bf-7940-4df3-bba3-295f967ceed2" name="Aktualizowanie danych użytkownika" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="76a638bb-e54e-4771-b326-e0d3c1ae9292" />
+        <subjects>
+          <subsystemMoniker Id="3b1d540c-e503-4ed6-8769-783e31c8df1c" LastKnownName="Server" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="c8c06675-80b5-4119-9b9f-17b279239cc2" name="Transmitowanie wideorozmowy" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="e171d128-c727-4cb9-a022-4bfec661418b" />
+        <subjects>
+          <subsystemMoniker Id="3b1d540c-e503-4ed6-8769-783e31c8df1c" LastKnownName="Server" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="94781d63-a3bf-4d33-9af4-31fb01ab831d" name="Obliczanie rankingu użytkownika" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="8f147731-a456-4bb3-94c4-f6822accaa50" />
+        <subjects>
+          <subsystemMoniker Id="3b1d540c-e503-4ed6-8769-783e31c8df1c" LastKnownName="Server" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="815a7d71-c672-4851-a78d-976c49662de3" name="Aktualizowanie konta użytkownika" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="231acfff-0fd7-476b-95bf-18498f06ef4b" />
+        <extendedCases>
+          <extend Id="b50ed517-2fa2-47bb-813c-1a7caf7bf140">
+            <useCaseMoniker Id="5836ddf7-476c-477e-8034-067d1bea9da4" LastKnownName="Obliczanie punktów za grę" />
+            <elementDefinition Id="1b818fb0-25cb-42cc-a42d-c89b90109f0d" />
+          </extend>
+          <extend Id="4f683c0b-f6b9-44b4-9b2e-2e8793983338">
+            <useCaseMoniker Id="94781d63-a3bf-4d33-9af4-31fb01ab831d" LastKnownName="Obliczanie rankingu użytkownika" />
+            <elementDefinition Id="c311d5bf-284c-4ab9-a5d3-9d40218294b8" />
+          </extend>
+        </extendedCases>
+        <subjects>
+          <subsystemMoniker Id="3b1d540c-e503-4ed6-8769-783e31c8df1c" LastKnownName="Server" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+  </packagedElements>
+  <package Id="e49a15ad-140b-4c2a-84d5-a98c6ae52dfa" name="ModelingProject">
+    <elementDefinition Id="9f370d29-5e44-49a4-b55f-85e169ee12bf" />
+    <profileInstances>
+      <packageHasProfileInstances Id="44200c58-9f75-4233-9d68-103a408299e0">
+        <profileInstance Id="cad6f689-4418-442b-a44e-a2c24ef80264" name="StandardProfileL2">
+          <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+        </profileInstance>
+        <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+      </packageHasProfileInstances>
+      <packageHasProfileInstances Id="c4987d0e-f9c4-475d-a3bf-6842fee0f455">
+        <profileInstance Id="721d89cb-2bed-4798-ad95-d91522aca6ee" name="StandardProfileL3">
+          <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+        </profileInstance>
+        <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+      </packageHasProfileInstances>
+    </profileInstances>
+  </package>
+</useCaseModelRoot>

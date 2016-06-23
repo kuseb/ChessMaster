@@ -1,0 +1,18 @@
+\contentsline {section}{\numberline {1}Opis aplikacji}{2}
+\contentsline {section}{\numberline {2}Komponenty}{2}
+\contentsline {section}{\numberline {3}Dane wej\IeC {\'s}ciowe i wyj\IeC {\'s}ciowe}{3}
+\contentsline {subsection}{\numberline {3.1}Dane wej\IeC {\'s}ciowe}{3}
+\contentsline {subsection}{\numberline {3.2}Dane wyj\IeC {\'s}ciowe}{4}
+\contentsline {section}{\numberline {4}Wymagania}{5}
+\contentsline {subsection}{\numberline {4.1}Diagram u\IeC {\.z}ycia}{5}
+\contentsline {subsection}{\numberline {4.2}Wymagania funkcjonalne}{7}
+\contentsline {subsection}{\numberline {4.3}Wymagania niefunkcjonalne}{7}
+\contentsline {section}{\numberline {5}Schematy blokowe}{9}
+\contentsline {section}{\numberline {6}Diagram klas}{11}
+\contentsline {section}{\numberline {7}Diagram zwi\IeC {\k a}zk\IeC {\'o}w encji}{13}
+\contentsline {section}{\numberline {8}Technologia}{13}
+\contentsline {section}{\numberline {9}Algorytmy}{14}
+\contentsline {subsection}{\numberline {9.1}Algorytm min-max}{14}
+\contentsline {subsection}{\numberline {9.2}Algorytm alfa-beta}{14}
+\contentsline {subsection}{\numberline {9.3}Analiza istniej\IeC {\k a}cych rozwi\IeC {\k a}za\IeC {\'n}}{15}
+\contentsline {subsubsection}{\numberline {9.3.1}Przyk\IeC {\l }ady istniej\IeC {\k a}cych program\IeC {\'o}w}{15}

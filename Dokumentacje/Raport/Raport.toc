@@ -1,0 +1,11 @@
+\contentsline {section}{\numberline {1}Tester}{2}
+\contentsline {section}{\numberline {2}Platformy}{2}
+\contentsline {section}{\numberline {3}Testy}{3}
+\contentsline {subsection}{\numberline {3.1}Testy modelu danych i funkcjonalno\IeC {\'s}ci}{3}
+\contentsline {subsection}{\numberline {3.2}Testy interfejsu}{3}
+\contentsline {subsubsection}{\numberline {3.2.1}Testy interfejsu planszy}{3}
+\contentsline {subsubsection}{\numberline {3.2.2}Testy interfejsu logowania i rejestracji}{4}
+\contentsline {subsection}{\numberline {3.3}Testy wydajno\IeC {\'s}ciowe}{4}
+\contentsline {section}{\numberline {4}Interfejs}{5}
+\contentsline {section}{\numberline {5}Jako\IeC {\'s}\IeC {\'c} kodu}{5}
+\contentsline {section}{\numberline {6}Podumowanie}{5}

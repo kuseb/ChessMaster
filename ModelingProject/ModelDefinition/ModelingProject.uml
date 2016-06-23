@@ -1,0 +1,3275 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<modelStoreModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm5="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner" xmlns:dm9="http://schemas.microsoft.com/dsltools/SimpleShapesModel" xmlns:dm10="http://schemas.microsoft.com/dsltools/UseCaseModel"
+  dslVersion="1.0.0.0"
+  Id="9f370d29-5e44-49a4-b55f-85e169ee12bf"
+  name="ModelingProject" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <profileInstances>
+    <packageHasProfileInstances
+      Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b">
+      <profileInstance
+        Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791"
+        name="StandardProfileL2" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances
+      Id="29349502-908c-4fda-9054-c48619c59ed0">
+      <profileInstance
+        Id="532ea607-fb19-44b8-8502-3351b05452be"
+        name="StandardProfileL3" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <packageHasNamedElement>
+      <actor
+        Id="a2051577-10cb-4ace-9167-74df8051c5fa"
+        name="Gracz"
+        isAbstract="false"
+        isLeaf="false">
+        <targetEnds>
+          <association
+            Id="de738862-1315-4b7c-9639-72c4350782cd"
+            isDerived="false"
+            sourceEndRoleName="Gracz"
+            targetEndRoleName="Włączanie aplikacji"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="dea73e18-27e2-4efe-9f7c-480ac134b843"
+              LastKnownName="Włączanie aplikacji"
+              LastKnownLocation="ModelingProject.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="8ba7f24c-b453-49b9-beb4-4ea34bfc0869"
+                  name="Gracz"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="8792a7a3-ebf9-4397-ad47-b4635b6e1056"
+                  name="Włączanie aplikacji"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="186a714f-e88e-4483-80fb-20bd025e9d5a"
+            isDerived="false"
+            sourceEndRoleName="Gracz"
+            targetEndRoleName="Rejestrowanie się"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="6d8a24c3-06db-4a00-8a93-b2fae3166808"
+              LastKnownName="Rejestrowanie się"
+              LastKnownLocation="ModelingProject.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="a21c2997-7f8d-45ea-9dd0-4849a0f10ea9"
+                  name="Gracz"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="8c6f065d-fbc7-4ae1-a439-ff4ae534c5ae"
+                  name="Rejestrowanie się"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="3a7e6683-d871-4bc4-96f5-e77b92197c53"
+            isDerived="false"
+            sourceEndRoleName="Gracz"
+            targetEndRoleName="Logowanie"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="789103b4-86f4-43c3-80e9-4c2c83dc2c0a"
+              LastKnownName="Logowanie"
+              LastKnownLocation="ModelingProject.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="022d0011-df52-4cc5-bc21-5e0e230d870b"
+                  name="Gracz"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="5a68a709-b576-457a-bd37-5f06dc15d17c"
+                  name="Logowanie"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="3319e9f9-09bc-49ce-a043-e5365fd2aab0"
+            isDerived="false"
+            sourceEndRoleName="Gracz"
+            targetEndRoleName="Wybranie gry wieloosobowej"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="25c1a98f-cf75-49d2-98da-bb00ff647000"
+              LastKnownName="Wybieranie gry wieloosobowej"
+              LastKnownLocation="ModelingProject.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="60ecd9ba-f3b9-4b0e-9fd1-366b2c7276bc"
+                  name="Gracz"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="fd918304-aae5-4def-90ce-91903f0410c8"
+                  name="Wybranie gry wieloosobowej"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="d5683555-f96a-4b47-b0d7-c79c99f34828"
+            isDerived="false"
+            sourceEndRoleName="Gracz"
+            targetEndRoleName="Wybranie gry jednoosobowej"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="6344cada-b756-48d1-8c71-486da3507d39"
+              LastKnownName="Wybieranie gry jednoosobowej"
+              LastKnownLocation="ModelingProject.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="05285d30-ca1b-4247-b4fc-2eb183681d92"
+                  name="Gracz"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="f71f1b41-ddcb-41d8-b85d-edda040a80a9"
+                  name="Wybranie gry jednoosobowej"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="74dea42f-4d91-4315-8ed9-dd250b2c8138"
+            isDerived="false"
+            sourceEndRoleName="Gracz"
+            targetEndRoleName="Wyłączanie aplikacji"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="1dfe34e9-abe7-49fe-9904-0f24ff1ac43d"
+              LastKnownName="Wyłączanie aplikacji"
+              LastKnownLocation="ModelingProject.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="19b09885-6bc0-4e9e-a3ac-c2d33bff8af6"
+                  name="Gracz"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="72aae0be-b062-464c-bc69-842c3a3bf6de"
+                  name="Wyłączanie aplikacji"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="ec3d2f0c-bf2b-40ce-b637-23a44923e7db"
+            isDerived="false"
+            sourceEndRoleName="Gracz"
+            targetEndRoleName="Zarządzanie grą jednoosobową"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="3c640b48-0906-41c6-988f-3306d2cd893d"
+              LastKnownName="Zarządzanie grą jednoosobową"
+              LastKnownLocation="ModelingProject.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="66f333d6-1092-4b48-94fe-950d3eb7ef4a"
+                  name="Gracz"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="557f4e26-3a27-4aef-8fe2-6c8643b2da16"
+                  name="Zarządzanie grą jednoosobową"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="dc793b5b-7e4f-4fcb-8011-c30cbab2a3a6"
+            isDerived="false"
+            sourceEndRoleName="Gracz"
+            targetEndRoleName="Zarządzanie grą wieloosobową"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="6c99e877-ecac-46ed-a293-2f4f9010279b"
+              LastKnownName="Zarządzanie grą wieloosobową"
+              LastKnownLocation="ModelingProject.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="16cc62ff-a4c8-43a5-860d-f7655e7d27c7"
+                  name="Gracz"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="15eee228-e17f-4eec-a501-6055cdf38ade"
+                  name="Zarządzanie grą wieloosobową"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="68a0577a-828f-4965-8f26-1a9c44d90f73"
+            isDerived="false"
+            sourceEndRoleName="Gracz"
+            targetEndRoleName="Komunikowanie się z przeciwnikiem"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="12481bbd-2f98-4fdf-9b13-a16c77d8819b"
+              LastKnownName="Komunikowanie się z przeciwnikiem"
+              LastKnownLocation="ModelingProject.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="6a755fae-9bbd-477f-bc05-e58bf67fe370"
+                  name="Gracz"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="70ec912f-467e-47c0-9fae-33589ea22f94"
+                  name="Komunikowanie się z przeciwnikiem"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+      </actor>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <subsystem
+        Id="b9b1be73-2026-488e-bf79-7bf373159850"
+        name="Client"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="dea73e18-27e2-4efe-9f7c-480ac134b843"
+        name="Włączanie aplikacji"
+        isAbstract="false"
+        isLeaf="false">
+        <subjects>
+          <subsystemMoniker
+            Id="b9b1be73-2026-488e-bf79-7bf373159850"
+            LastKnownName="Client"
+            LastKnownLocation="ModelingProject.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="1dfe34e9-abe7-49fe-9904-0f24ff1ac43d"
+        name="Wyłączanie aplikacji"
+        isAbstract="false"
+        isLeaf="false">
+        <subjects>
+          <subsystemMoniker
+            Id="b9b1be73-2026-488e-bf79-7bf373159850"
+            LastKnownName="Client"
+            LastKnownLocation="ModelingProject.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="6d8a24c3-06db-4a00-8a93-b2fae3166808"
+        name="Rejestrowanie się"
+        isAbstract="false"
+        isLeaf="false">
+        <subjects>
+          <subsystemMoniker
+            Id="b9b1be73-2026-488e-bf79-7bf373159850"
+            LastKnownName="Client"
+            LastKnownLocation="ModelingProject.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="789103b4-86f4-43c3-80e9-4c2c83dc2c0a"
+        name="Logowanie"
+        isAbstract="false"
+        isLeaf="false">
+        <subjects>
+          <subsystemMoniker
+            Id="b9b1be73-2026-488e-bf79-7bf373159850"
+            LastKnownName="Client"
+            LastKnownLocation="ModelingProject.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="6344cada-b756-48d1-8c71-486da3507d39"
+        name="Wybieranie gry jednoosobowej"
+        isAbstract="false"
+        isLeaf="false">
+        <extendedCases>
+          <extend
+            Id="754727bc-1cc2-47d0-8334-b86a4fb74c36">
+            <useCaseMoniker
+              Id="dd58ad28-6505-45b9-addd-a7b43e2c7284"
+              LastKnownName="Wybieranie rodzaju gry"
+              LastKnownLocation="ModelingProject.uml" />
+          </extend>
+        </extendedCases>
+        <subjects>
+          <subsystemMoniker
+            Id="b9b1be73-2026-488e-bf79-7bf373159850"
+            LastKnownName="Client"
+            LastKnownLocation="ModelingProject.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="25c1a98f-cf75-49d2-98da-bb00ff647000"
+        name="Wybieranie gry wieloosobowej"
+        isAbstract="false"
+        isLeaf="false">
+        <extendedCases>
+          <extend
+            Id="834cbc0f-3ce0-4c84-9e39-1ac20d6d078c">
+            <useCaseMoniker
+              Id="dd58ad28-6505-45b9-addd-a7b43e2c7284"
+              LastKnownName="Wybieranie rodzaju gry"
+              LastKnownLocation="ModelingProject.uml" />
+          </extend>
+        </extendedCases>
+        <subjects>
+          <subsystemMoniker
+            Id="b9b1be73-2026-488e-bf79-7bf373159850"
+            LastKnownName="Client"
+            LastKnownLocation="ModelingProject.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="dd58ad28-6505-45b9-addd-a7b43e2c7284"
+        name="Wybieranie rodzaju gry"
+        isAbstract="false"
+        isLeaf="false">
+        <subjects>
+          <subsystemMoniker
+            Id="b9b1be73-2026-488e-bf79-7bf373159850"
+            LastKnownName="Client"
+            LastKnownLocation="ModelingProject.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="3c640b48-0906-41c6-988f-3306d2cd893d"
+        name="Zarządzanie grą jednoosobową"
+        isAbstract="false"
+        isLeaf="false">
+        <additions>
+          <include
+            Id="2a27b273-4ba7-4f7b-9919-78ce55a5896c">
+            <useCaseMoniker
+              Id="9efa39a6-c85b-44b3-b9de-aca5a2bf3a1b"
+              LastKnownName="Zapisywanie stanu gry na dysku"
+              LastKnownLocation="ModelingProject.uml" />
+          </include>
+          <include
+            Id="43fb9713-01d9-44e5-84a4-43343c2bcfb8">
+            <useCaseMoniker
+              Id="3ec5f8d8-67ac-40a1-a1cc-03a56816f008"
+              LastKnownName="Przywracanie stanu gry"
+              LastKnownLocation="ModelingProject.uml" />
+          </include>
+          <include
+            Id="37ff229f-6a07-47d1-b7a7-1863820f9eff">
+            <useCaseMoniker
+              Id="91db52f2-e3f5-494a-90b0-4a272db7ab94"
+              LastKnownName="Wybieranie stopnia trudności"
+              LastKnownLocation="ModelingProject.uml" />
+          </include>
+        </additions>
+        <subjects>
+          <subsystemMoniker
+            Id="b9b1be73-2026-488e-bf79-7bf373159850"
+            LastKnownName="Client"
+            LastKnownLocation="ModelingProject.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="9efa39a6-c85b-44b3-b9de-aca5a2bf3a1b"
+        name="Zapisywanie stanu gry na dysku"
+        isAbstract="false"
+        isLeaf="false">
+        <subjects>
+          <subsystemMoniker
+            Id="b9b1be73-2026-488e-bf79-7bf373159850"
+            LastKnownName="Client"
+            LastKnownLocation="ModelingProject.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="3ec5f8d8-67ac-40a1-a1cc-03a56816f008"
+        name="Przywracanie stanu gry"
+        isAbstract="false"
+        isLeaf="false">
+        <subjects>
+          <subsystemMoniker
+            Id="b9b1be73-2026-488e-bf79-7bf373159850"
+            LastKnownName="Client"
+            LastKnownLocation="ModelingProject.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="91db52f2-e3f5-494a-90b0-4a272db7ab94"
+        name="Wybieranie stopnia trudności"
+        isAbstract="false"
+        isLeaf="false">
+        <subjects>
+          <subsystemMoniker
+            Id="b9b1be73-2026-488e-bf79-7bf373159850"
+            LastKnownName="Client"
+            LastKnownLocation="ModelingProject.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="b9232735-0532-4323-8c9f-0fa595ce21c8"
+        name="Obliczanie ilości punktów za grę jednoosobową"
+        isAbstract="false"
+        isLeaf="false">
+        <subjects>
+          <subsystemMoniker
+            Id="b9b1be73-2026-488e-bf79-7bf373159850"
+            LastKnownName="Client"
+            LastKnownLocation="ModelingProject.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="c6139aab-f960-490c-a3f7-89a2d77ac99f"
+        name="Zapisanie wyniku gry jednoosobowej na dysku"
+        isAbstract="false"
+        isLeaf="false">
+        <subjects>
+          <subsystemMoniker
+            Id="b9b1be73-2026-488e-bf79-7bf373159850"
+            LastKnownName="Client"
+            LastKnownLocation="ModelingProject.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="fd2476e7-1188-4733-9aa4-d876e05087eb"
+        name="Przypisywanie wyniku do konta"
+        isAbstract="false"
+        isLeaf="false">
+        <subjects>
+          <subsystemMoniker
+            Id="b9b1be73-2026-488e-bf79-7bf373159850"
+            LastKnownName="Client"
+            LastKnownLocation="ModelingProject.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <actor
+        Id="3b681a09-9e7c-4da5-b123-0a76e695db0f"
+        name="Client"
+        isAbstract="false"
+        isLeaf="false">
+        <targetEnds>
+          <association
+            Id="799d481b-4407-4c31-b356-76c03947f2e5"
+            isDerived="false"
+            sourceEndRoleName="Client"
+            targetEndRoleName="Obliczanie ilości punktów za grę jednoosobową"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="b9232735-0532-4323-8c9f-0fa595ce21c8"
+              LastKnownName="Obliczanie ilości punktów za grę jednoosobową"
+              LastKnownLocation="ModelingProject.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="bdaf36dd-0f89-4ffd-aa10-d4edae3b1181"
+                  name="Client"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="e3d1bb2a-9417-4173-b6ff-0ac4a1cfc7b4"
+                  name="Obliczanie ilości punktów za grę jednoosobową"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="7953ec48-fd45-4788-af49-5fa186b6580f"
+            isDerived="false"
+            sourceEndRoleName="Client"
+            targetEndRoleName="Przypisanie wyniku do konta"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="fd2476e7-1188-4733-9aa4-d876e05087eb"
+              LastKnownName="Przypisywanie wyniku do konta"
+              LastKnownLocation="ModelingProject.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="f89918dd-95e2-43ab-a124-88319cbe4c50"
+                  name="Client"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="81396155-5409-4815-a4d9-a1d601598f06"
+                  name="Przypisanie wyniku do konta"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="c5e030f1-f3c1-4498-a20e-0757aa1acf56"
+            isDerived="false"
+            sourceEndRoleName="Client"
+            targetEndRoleName="Zapisanie wyniku gry jednoosobowej na dysku"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="c6139aab-f960-490c-a3f7-89a2d77ac99f"
+              LastKnownName="Zapisanie wyniku gry jednoosobowej na dysku"
+              LastKnownLocation="ModelingProject.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="b476055d-b8bf-40c7-8918-55001078aae6"
+                  name="Client"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="4f7424e3-86af-4c4d-90cc-0c5d715e206c"
+                  name="Zapisanie wyniku gry jednoosobowej na dysku"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="f5741163-424d-4dc3-9bcc-cf9fdc5702e3"
+            isDerived="false"
+            sourceEndRoleName="Client"
+            targetEndRoleName="Rejestrowanie klienta na serwerze"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="c88e6602-450f-4b67-9df0-35c922e300b6"
+              LastKnownName="Rejestrowanie klienta na serwerze"
+              LastKnownLocation="ModelingProject.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="b172a979-9e24-432d-b5fe-f238ad291468"
+                  name="Client"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="f03e4104-dd04-4ec0-baf7-d86f1d732d27"
+                  name="Rejestrowanie klienta na serwerze"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="b80d2168-ecd4-47d3-8e66-7bc925348f61"
+            isDerived="false"
+            sourceEndRoleName="Client"
+            targetEndRoleName="Wysyłanie wyniku do serwera"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="d5032e21-b599-480a-9155-8f89c1fd5b55"
+              LastKnownName="Wysyłanie wyniku do serwera"
+              LastKnownLocation="ModelingProject.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="e8fe428e-ab84-4dfb-972e-25d9ab27c08a"
+                  name="Client"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="588242bd-0b55-4fd4-83b0-c6ca608784a5"
+                  name="Wysyłanie wyniku do serwera"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="d9438e03-e455-4a30-822c-f807e7977085"
+            isDerived="false"
+            sourceEndRoleName="Client"
+            targetEndRoleName="Wysyłanie wykonanego ruchu do serwera"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="7b2827d2-6b0a-468a-89b2-954d64261b30"
+              LastKnownName="Wysyłanie wykonanego ruchu do serwera"
+              LastKnownLocation="ModelingProject.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="2a5e01f8-cb8f-46b6-a451-202ec839ee29"
+                  name="Client"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="8443096b-a5d2-4068-a46c-6f1edc6efc1a"
+                  name="Wysyłanie wykonanego ruchu do serwera"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="19e99a9b-e358-4395-a8a0-1259c22c3d3d"
+            isDerived="false"
+            sourceEndRoleName="Client"
+            targetEndRoleName="Wysyłanie wiadomości czatu do serwera"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="92e486e5-b521-4a57-84eb-66d813514478"
+              LastKnownName="Wysyłanie wiadomości czatu do serwera"
+              LastKnownLocation="ModelingProject.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="13161ade-6d15-44b1-9910-b85a743f98cc"
+                  name="Client"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="766986c9-9ffa-4aa3-8156-0fdd63f6cbe3"
+                  name="Wysyłanie wiadomości czatu do serwera"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="028290eb-381e-4524-b461-522214e60a5e"
+            isDerived="false"
+            sourceEndRoleName="Client"
+            targetEndRoleName="Obsługa wideorozmowy"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="7b74affe-e508-417e-92de-f4848fb9375c"
+              LastKnownName="Obsługa wideorozmowy"
+              LastKnownLocation="ModelingProject.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="e85bb7d8-4532-4aeb-9ce2-4b923552f11e"
+                  name="Client"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="59f70896-c21c-4f65-aa09-f3aa96d85206"
+                  name="Obsługa wideorozmowy"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="16640733-2bb7-4b5b-9b85-2949410c3638"
+            isDerived="false"
+            sourceEndRoleName="Client"
+            targetEndRoleName="Ustawienie jakości wideorozmowy"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="ccc893df-e340-4f17-9793-440555d9b83e"
+              LastKnownName="Ustawienie jakości wideorozmowy"
+              LastKnownLocation="ModelingProject.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="66acff62-f6a9-406a-a22a-3d0adf762399"
+                  name="Client"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="73d2915c-78b2-4bf9-bf60-f5d9de5f64b2"
+                  name="Ustawienie jakości wideorozmowy"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="5b264fc5-b0f9-4139-bcde-64c5eede8711"
+            isDerived="false"
+            sourceEndRoleName="Client"
+            targetEndRoleName="Wysyłanie stanu gry"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="9e241d94-0b72-4c2a-9a31-eb5eef772033"
+              LastKnownName="Wysyłanie stanu gry"
+              LastKnownLocation="ModelingProject.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="841d8522-6a44-475d-a1a2-35e9f42f94f5"
+                  name="Client"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="13108c6f-cd9c-4e7c-96f1-2c11c9d1dbb0"
+                  name="Wysyłanie stanu gry"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="5121401d-7776-4d94-af03-841f52a888ad"
+            isDerived="false"
+            sourceEndRoleName="Client"
+            targetEndRoleName="Wizualizacja ruchu przeciwnika"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="4e42b3d8-1080-45a2-9c6e-720aa625667a"
+              LastKnownName="Wizualizacja ruchu przeciwnika"
+              LastKnownLocation="ModelingProject.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="cf9a9cee-6e96-40a5-8998-be7967ae38d8"
+                  name="Client"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="c964576c-7121-4e96-bccd-6624deb23c73"
+                  name="Wizualizacja ruchu przeciwnika"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="68ca45cf-cb50-4d93-ba36-2286de036c7b"
+            isDerived="false"
+            sourceEndRoleName="Client"
+            targetEndRoleName="Odbieranie informacji o dostępnych przeciwnikach"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="141e15c4-8617-47f8-8176-b8184972fb0a"
+              LastKnownName="Odbieranie informacji o dostępnych przeciwnikach"
+              LastKnownLocation="ModelingProject.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="1f03eb96-1f60-44b1-8ddd-fcb47bcc7298"
+                  name="Client"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="a2310e86-b019-46ed-81c5-16cf7c5a2dfe"
+                  name="Odbieranie informacji o dostępnych przeciwnikach"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="12f4f4c6-2e58-4148-b3af-09f67295dc5b"
+            isDerived="false"
+            sourceEndRoleName="Client"
+            targetEndRoleName="Odbieranie informacji o ruchu przeciwnika"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="0449c4d1-9788-46a9-aecf-cd50c77a96bf"
+              LastKnownName="Odbieranie informacji o ruchu przeciwnika"
+              LastKnownLocation="ModelingProject.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="fb42ecb1-66f9-40ad-8b5f-a9112bd8962f"
+                  name="Client"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="5050a043-fbe9-4922-94c1-cc30793ace92"
+                  name="Odbieranie informacji o ruchu przeciwnika"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="34686d23-dcd6-4a56-9ff1-ba9f28536847"
+            isDerived="false"
+            sourceEndRoleName="Client"
+            targetEndRoleName="Odbieranie informacji o pojedynku"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="25d2813d-804b-4120-ab30-b9a70e8f8172"
+              LastKnownName="Odbieranie informacji o pojedynku"
+              LastKnownLocation="ModelingProject.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="8a18bbd3-de91-4ac6-9da3-76e47f0562db"
+                  name="Client"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="99c14ade-7ae6-44dd-b58f-65469cdf7814"
+                  name="Odbieranie informacji o pojedynku"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+      </actor>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="6c99e877-ecac-46ed-a293-2f4f9010279b"
+        name="Zarządzanie grą wieloosobową"
+        isAbstract="false"
+        isLeaf="false">
+        <additions>
+          <include
+            Id="7817651e-f2fd-4983-968c-319d2de6e4de">
+            <useCaseMoniker
+              Id="216ae310-4083-4850-8fb1-c671438d8490"
+              LastKnownName="Wybranie przeciwnika z listy dostępnych"
+              LastKnownLocation="ModelingProject.uml" />
+          </include>
+          <include
+            Id="a10476f1-439d-4df0-9999-c1bb54bcd60c">
+            <useCaseMoniker
+              Id="58081a80-fd8d-40d3-9e1b-f409a9e6843a"
+              LastKnownName="Zaakceptowanie pojedynku"
+              LastKnownLocation="ModelingProject.uml" />
+          </include>
+          <include
+            Id="d7aba087-565b-49af-a634-44ed8e6bc592">
+            <useCaseMoniker
+              Id="0a73d15c-124c-4656-9483-de93bba25f70"
+              LastKnownName="Odrzucenie pojedynku"
+              LastKnownLocation="ModelingProject.uml" />
+          </include>
+        </additions>
+        <subjects>
+          <subsystemMoniker
+            Id="b9b1be73-2026-488e-bf79-7bf373159850"
+            LastKnownName="Client"
+            LastKnownLocation="ModelingProject.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="216ae310-4083-4850-8fb1-c671438d8490"
+        name="Wybranie przeciwnika z listy dostępnych"
+        isAbstract="false"
+        isLeaf="false">
+        <subjects>
+          <subsystemMoniker
+            Id="b9b1be73-2026-488e-bf79-7bf373159850"
+            LastKnownName="Client"
+            LastKnownLocation="ModelingProject.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="58081a80-fd8d-40d3-9e1b-f409a9e6843a"
+        name="Zaakceptowanie pojedynku"
+        isAbstract="false"
+        isLeaf="false">
+        <subjects>
+          <subsystemMoniker
+            Id="b9b1be73-2026-488e-bf79-7bf373159850"
+            LastKnownName="Client"
+            LastKnownLocation="ModelingProject.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="0a73d15c-124c-4656-9483-de93bba25f70"
+        name="Odrzucenie pojedynku"
+        isAbstract="false"
+        isLeaf="false">
+        <subjects>
+          <subsystemMoniker
+            Id="b9b1be73-2026-488e-bf79-7bf373159850"
+            LastKnownName="Client"
+            LastKnownLocation="ModelingProject.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="12481bbd-2f98-4fdf-9b13-a16c77d8819b"
+        name="Komunikowanie się z przeciwnikiem"
+        isAbstract="false"
+        isLeaf="false">
+        <subjects>
+          <subsystemMoniker
+            Id="b9b1be73-2026-488e-bf79-7bf373159850"
+            LastKnownName="Client"
+            LastKnownLocation="ModelingProject.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="29c9e207-8df3-40c9-89bc-ca3f65f8c9d2"
+        name="Komunikacja za pomocą czatu"
+        isAbstract="false"
+        isLeaf="false">
+        <extendedCases>
+          <extend
+            Id="f38c3920-c66d-4cbf-b79a-f69af6b9cc54">
+            <useCaseMoniker
+              Id="12481bbd-2f98-4fdf-9b13-a16c77d8819b"
+              LastKnownName="Komunikowanie się z przeciwnikiem"
+              LastKnownLocation="ModelingProject.uml" />
+          </extend>
+        </extendedCases>
+        <subjects>
+          <subsystemMoniker
+            Id="b9b1be73-2026-488e-bf79-7bf373159850"
+            LastKnownName="Client"
+            LastKnownLocation="ModelingProject.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="177cadf2-83aa-455c-9dc4-d3c1526913e6"
+        name="Komunikacja  za pomocą wideorozmowy"
+        isAbstract="false"
+        isLeaf="false">
+        <extendedCases>
+          <extend
+            Id="dda85149-2fb7-4df2-b722-01f1979d0798">
+            <useCaseMoniker
+              Id="12481bbd-2f98-4fdf-9b13-a16c77d8819b"
+              LastKnownName="Komunikowanie się z przeciwnikiem"
+              LastKnownLocation="ModelingProject.uml" />
+          </extend>
+        </extendedCases>
+        <subjects>
+          <subsystemMoniker
+            Id="b9b1be73-2026-488e-bf79-7bf373159850"
+            LastKnownName="Client"
+            LastKnownLocation="ModelingProject.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="c88e6602-450f-4b67-9df0-35c922e300b6"
+        name="Rejestrowanie klienta na serwerze"
+        isAbstract="false"
+        isLeaf="false">
+        <extendedCases>
+          <extend
+            Id="f545064c-9148-4e41-b4a2-318a85f58847">
+            <useCaseMoniker
+              Id="166ac0ef-8477-4de5-82c4-5664fde9e7b4"
+              LastKnownName="Wysyłanie danych do serwera"
+              LastKnownLocation="ModelingProject.uml" />
+          </extend>
+        </extendedCases>
+        <subjects>
+          <subsystemMoniker
+            Id="b9b1be73-2026-488e-bf79-7bf373159850"
+            LastKnownName="Client"
+            LastKnownLocation="ModelingProject.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="7b2827d2-6b0a-468a-89b2-954d64261b30"
+        name="Wysyłanie wykonanego ruchu do serwera"
+        isAbstract="false"
+        isLeaf="false">
+        <extendedCases>
+          <extend
+            Id="9515db81-38de-42d3-a67b-e53126a29f04">
+            <useCaseMoniker
+              Id="17ea550a-1b02-4b6a-87c0-666c025b4183"
+              LastKnownName="Wysyłanie informacji o grze wieloosobowej"
+              LastKnownLocation="ModelingProject.uml" />
+          </extend>
+        </extendedCases>
+        <subjects>
+          <subsystemMoniker
+            Id="b9b1be73-2026-488e-bf79-7bf373159850"
+            LastKnownName="Client"
+            LastKnownLocation="ModelingProject.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="92e486e5-b521-4a57-84eb-66d813514478"
+        name="Wysyłanie wiadomości czatu do serwera"
+        isAbstract="false"
+        isLeaf="false">
+        <extendedCases>
+          <extend
+            Id="67833c9d-1933-4aff-8fce-e2a2d640aa75">
+            <useCaseMoniker
+              Id="166ac0ef-8477-4de5-82c4-5664fde9e7b4"
+              LastKnownName="Wysyłanie danych do serwera"
+              LastKnownLocation="ModelingProject.uml" />
+          </extend>
+        </extendedCases>
+        <subjects>
+          <subsystemMoniker
+            Id="b9b1be73-2026-488e-bf79-7bf373159850"
+            LastKnownName="Client"
+            LastKnownLocation="ModelingProject.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="7b74affe-e508-417e-92de-f4848fb9375c"
+        name="Obsługa wideorozmowy"
+        isAbstract="false"
+        isLeaf="false">
+        <extendedCases>
+          <extend
+            Id="935ca2fb-c9a5-446f-b231-21f263235b21">
+            <useCaseMoniker
+              Id="166ac0ef-8477-4de5-82c4-5664fde9e7b4"
+              LastKnownName="Wysyłanie danych do serwera"
+              LastKnownLocation="ModelingProject.uml" />
+          </extend>
+        </extendedCases>
+        <subjects>
+          <subsystemMoniker
+            Id="b9b1be73-2026-488e-bf79-7bf373159850"
+            LastKnownName="Client"
+            LastKnownLocation="ModelingProject.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="ccc893df-e340-4f17-9793-440555d9b83e"
+        name="Ustawienie jakości wideorozmowy"
+        isAbstract="false"
+        isLeaf="false">
+        <subjects>
+          <subsystemMoniker
+            Id="b9b1be73-2026-488e-bf79-7bf373159850"
+            LastKnownName="Client"
+            LastKnownLocation="ModelingProject.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="d5032e21-b599-480a-9155-8f89c1fd5b55"
+        name="Wysyłanie wyniku do serwera"
+        isAbstract="false"
+        isLeaf="false">
+        <extendedCases>
+          <extend
+            Id="bad32d63-777b-44f4-a67a-59c2caa50768">
+            <useCaseMoniker
+              Id="166ac0ef-8477-4de5-82c4-5664fde9e7b4"
+              LastKnownName="Wysyłanie danych do serwera"
+              LastKnownLocation="ModelingProject.uml" />
+          </extend>
+        </extendedCases>
+        <subjects>
+          <subsystemMoniker
+            Id="b9b1be73-2026-488e-bf79-7bf373159850"
+            LastKnownName="Client"
+            LastKnownLocation="ModelingProject.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="166ac0ef-8477-4de5-82c4-5664fde9e7b4"
+        name="Wysyłanie danych do serwera"
+        isAbstract="false"
+        isLeaf="false">
+        <subjects>
+          <subsystemMoniker
+            Id="b9b1be73-2026-488e-bf79-7bf373159850"
+            LastKnownName="Client"
+            LastKnownLocation="ModelingProject.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <actor
+        Id="f24953bd-03df-451a-8e64-60a708ad29e3"
+        name="Server"
+        isAbstract="false"
+        isLeaf="false">
+        <targetEnds>
+          <association
+            Id="31c138c0-db20-4682-bf6a-45b7f3e1ad7b"
+            isDerived="false"
+            sourceEndRoleName="Server"
+            targetEndRoleName="UseCase4"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="a9daa446-0d41-4ae5-a394-5f3c66fa70fd"
+              LastKnownName="UseCase4"
+              LastKnownLocation="ModelingProject.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="d992e410-362e-4685-a638-370ae2284dac"
+                  name="Server"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="3d71f458-4db5-47b2-a7ae-c085f4b4b514"
+                  name="UseCase4"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="f5d72533-912b-4bbd-aadf-db9ddce92cee"
+            isDerived="false"
+            sourceEndRoleName="Server"
+            targetEndRoleName="Otrzymywanie informacji od clienta"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="44d60c1b-08b5-4e2f-bcab-41beb1900fdf"
+              LastKnownName="Otrzymywanie informacji od clienta"
+              LastKnownLocation="ModelingProject.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="af410976-bbf2-4c06-b1f5-90daa0075245"
+                  name="Server"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="da74b07d-6a34-40eb-b71d-191014648b49"
+                  name="Otrzymywanie informacji od clienta"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="6068eec8-bd21-4617-8070-585368d1a4e6"
+            isDerived="false"
+            sourceEndRoleName="Server"
+            targetEndRoleName="Zapisywanie danych w bazie danych"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="04ecfd6d-f827-4c9e-b002-276bb7ee232f"
+              LastKnownName="Zapisywanie danych w bazie danych"
+              LastKnownLocation="ModelingProject.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="9d302faf-2473-4d94-831f-6b6f757a5665"
+                  name="Server"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="49893cc3-04eb-48f4-819c-b89c8227013d"
+                  name="Zapisywanie danych w bazie danych"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="e32099ab-53c4-4aa3-873f-ba0462f0f4ce"
+            isDerived="false"
+            sourceEndRoleName="Server"
+            targetEndRoleName="Zarządzanie grami"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="e6e263be-5136-4fac-9806-0a39fcb30064"
+              LastKnownName="Zarządzanie grami"
+              LastKnownLocation="ModelingProject.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="6f9c3d35-d779-4d81-a18e-2248b8267c02"
+                  name="Server"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="45b74b57-2449-47c9-9258-93d17308ad98"
+                  name="Zarządzanie grami"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="ac91ad00-8b89-4891-a7b5-026b8dab9a95"
+            isDerived="false"
+            sourceEndRoleName="Server"
+            targetEndRoleName="Wysyłanie informacji do clienta "
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="5197799d-0679-455e-a59d-95107ca97770"
+              LastKnownName="Wysyłanie informacji do clienta "
+              LastKnownLocation="ModelingProject.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="aa11c6da-faa1-49c8-8d87-3ec8ddf8dae5"
+                  name="Server"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="d6abd8a4-f53c-46ba-82b3-f6026979a569"
+                  name="Wysyłanie informacji do clienta "
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="4d01d26f-fd9d-4988-a614-c3868943c987"
+            isDerived="false"
+            sourceEndRoleName="Server"
+            targetEndRoleName="Obliczanie rankingu użytkownika"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="8f147731-a456-4bb3-94c4-f6822accaa50"
+              LastKnownName="Obliczanie rankingu użytkownika"
+              LastKnownLocation="ModelingProject.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="5a332e9f-9cf4-40e8-aa89-c11bd5b861df"
+                  name="Server"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="e38fc5b1-e210-4849-a73f-ba80d1cf17f6"
+                  name="Obliczanie rankingu użytkownika"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="ecdbc640-95b4-42ce-80c8-2e2376585f8b"
+            isDerived="false"
+            sourceEndRoleName="Server"
+            targetEndRoleName="Obliczanie punktów za grę"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="600a1091-825c-4360-9bf9-b8f6af95c9a4"
+              LastKnownName="Obliczanie punktów za grę"
+              LastKnownLocation="ModelingProject.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="b8816257-af4d-4c95-bddf-bcaf8020e132"
+                  name="Server"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="fb906935-2216-411f-8f72-45762a947762"
+                  name="Obliczanie punktów za grę"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="eb0a867c-407c-459f-ba09-8985db21cca1"
+            isDerived="false"
+            sourceEndRoleName="Server"
+            targetEndRoleName="Aktualizowanie konta użytkownika"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="76a638bb-e54e-4771-b326-e0d3c1ae9292"
+              LastKnownName="Aktualizowanie danych użytkownika"
+              LastKnownLocation="ModelingProject.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="88eaaac7-3907-4ffd-8d90-c406887850b9"
+                  name="Server"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="0e2d5731-de80-4c04-9a22-de4dcb65c316"
+                  name="Aktualizowanie konta użytkownika"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="7158f89c-1993-45e0-9acd-a18350eb7dfe"
+            isDerived="false"
+            sourceEndRoleName="Server"
+            targetEndRoleName="Transmitowanie wideorozmowy"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="e171d128-c727-4cb9-a022-4bfec661418b"
+              LastKnownName="Transmitowanie wideorozmowy"
+              LastKnownLocation="ModelingProject.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="f3980d3f-145a-4f8c-aeb0-36f1b48c867c"
+                  name="Server"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="f98579f9-56f3-4348-9512-cb419fda57a9"
+                  name="Transmitowanie wideorozmowy"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+      </actor>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <subsystem
+        Id="0650e670-45cc-44e7-ace3-dca8657926fc"
+        name="Server"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <subsystem
+        Id="377e8505-7357-4821-a969-5c260b852493"
+        name="Subsystem2"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="44d60c1b-08b5-4e2f-bcab-41beb1900fdf"
+        name="Otrzymywanie informacji od clienta"
+        isAbstract="false"
+        isLeaf="false">
+        <subjects>
+          <subsystemMoniker
+            Id="0650e670-45cc-44e7-ace3-dca8657926fc"
+            LastKnownName="Server"
+            LastKnownLocation="ModelingProject.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="5197799d-0679-455e-a59d-95107ca97770"
+        name="Wysyłanie informacji do clienta "
+        isAbstract="false"
+        isLeaf="false">
+        <subjects>
+          <subsystemMoniker
+            Id="0650e670-45cc-44e7-ace3-dca8657926fc"
+            LastKnownName="Server"
+            LastKnownLocation="ModelingProject.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="e6e263be-5136-4fac-9806-0a39fcb30064"
+        name="Zarządzanie grami"
+        isAbstract="false"
+        isLeaf="false">
+        <subjects>
+          <subsystemMoniker
+            Id="0650e670-45cc-44e7-ace3-dca8657926fc"
+            LastKnownName="Server"
+            LastKnownLocation="ModelingProject.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="a9daa446-0d41-4ae5-a394-5f3c66fa70fd"
+        name="UseCase4"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="2dc9070c-fda5-4113-a5d4-94d5034a899d"
+        name="Class1"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="7940146e-84be-4e2d-9b6b-9364c66c1440"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="17ea550a-1b02-4b6a-87c0-666c025b4183"
+        name="Wysyłanie informacji o grze wieloosobowej"
+        isAbstract="false"
+        isLeaf="false">
+        <extendedCases>
+          <extend
+            Id="78790d47-0c5f-46b6-be02-5f72f33cc6db">
+            <useCaseMoniker
+              Id="166ac0ef-8477-4de5-82c4-5664fde9e7b4"
+              LastKnownName="Wysyłanie danych do serwera"
+              LastKnownLocation="ModelingProject.uml" />
+          </extend>
+        </extendedCases>
+        <subjects>
+          <subsystemMoniker
+            Id="b9b1be73-2026-488e-bf79-7bf373159850"
+            LastKnownName="Client"
+            LastKnownLocation="ModelingProject.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="4e42b3d8-1080-45a2-9c6e-720aa625667a"
+        name="Wizualizacja ruchu przeciwnika"
+        isAbstract="false"
+        isLeaf="false">
+        <subjects>
+          <subsystemMoniker
+            Id="b9b1be73-2026-488e-bf79-7bf373159850"
+            LastKnownName="Client"
+            LastKnownLocation="ModelingProject.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="27b5089a-38a9-4f0d-a4f0-205ad640c193"
+        name="UseCase1"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="9e241d94-0b72-4c2a-9a31-eb5eef772033"
+        name="Wysyłanie stanu gry"
+        isAbstract="false"
+        isLeaf="false">
+        <extendedCases>
+          <extend
+            Id="e48e68ca-71b7-4f35-aab4-b6974c58ec9f">
+            <useCaseMoniker
+              Id="17ea550a-1b02-4b6a-87c0-666c025b4183"
+              LastKnownName="Wysyłanie informacji o grze wieloosobowej"
+              LastKnownLocation="ModelingProject.uml" />
+          </extend>
+        </extendedCases>
+        <subjects>
+          <subsystemMoniker
+            Id="b9b1be73-2026-488e-bf79-7bf373159850"
+            LastKnownName="Client"
+            LastKnownLocation="ModelingProject.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="141e15c4-8617-47f8-8176-b8184972fb0a"
+        name="Odbieranie informacji o dostępnych przeciwnikach"
+        isAbstract="false"
+        isLeaf="false">
+        <extendedCases>
+          <extend
+            Id="efb14951-9d39-45bd-9595-65254cb7ff02">
+            <useCaseMoniker
+              Id="f6a3aba7-6231-4952-8fff-350fbd57840b"
+              LastKnownName="Odbieranie informacji od serwera"
+              LastKnownLocation="ModelingProject.uml" />
+          </extend>
+        </extendedCases>
+        <subjects>
+          <subsystemMoniker
+            Id="b9b1be73-2026-488e-bf79-7bf373159850"
+            LastKnownName="Client"
+            LastKnownLocation="ModelingProject.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="0449c4d1-9788-46a9-aecf-cd50c77a96bf"
+        name="Odbieranie informacji o ruchu przeciwnika"
+        isAbstract="false"
+        isLeaf="false">
+        <extendedCases>
+          <extend
+            Id="e07107ae-d937-4431-ab01-f49099e9acea">
+            <useCaseMoniker
+              Id="f6a3aba7-6231-4952-8fff-350fbd57840b"
+              LastKnownName="Odbieranie informacji od serwera"
+              LastKnownLocation="ModelingProject.uml" />
+          </extend>
+        </extendedCases>
+        <subjects>
+          <subsystemMoniker
+            Id="b9b1be73-2026-488e-bf79-7bf373159850"
+            LastKnownName="Client"
+            LastKnownLocation="ModelingProject.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="25d2813d-804b-4120-ab30-b9a70e8f8172"
+        name="Odbieranie informacji o pojedynku"
+        isAbstract="false"
+        isLeaf="false">
+        <extendedCases>
+          <extend
+            Id="462c407f-7deb-4baf-8a08-dc7c320879c1">
+            <useCaseMoniker
+              Id="f6a3aba7-6231-4952-8fff-350fbd57840b"
+              LastKnownName="Odbieranie informacji od serwera"
+              LastKnownLocation="ModelingProject.uml" />
+          </extend>
+        </extendedCases>
+        <subjects>
+          <subsystemMoniker
+            Id="b9b1be73-2026-488e-bf79-7bf373159850"
+            LastKnownName="Client"
+            LastKnownLocation="ModelingProject.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="f6a3aba7-6231-4952-8fff-350fbd57840b"
+        name="Odbieranie informacji od serwera"
+        isAbstract="false"
+        isLeaf="false">
+        <subjects>
+          <subsystemMoniker
+            Id="b9b1be73-2026-488e-bf79-7bf373159850"
+            LastKnownName="Client"
+            LastKnownLocation="ModelingProject.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <actor
+        Id="497b41d3-c81d-4dca-841c-be274eae3ac5"
+        name="Baza danych"
+        isAbstract="false"
+        isLeaf="false">
+        <targetEnds>
+          <association
+            Id="f0c5e8cd-52ec-4cee-86cb-871c22f767e0"
+            isDerived="false"
+            sourceEndRoleName="Database server"
+            targetEndRoleName="Manage backup data"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="b3b8d206-ef7b-48f3-8a64-71942e8386c3"
+              LastKnownName="Zapisywanie kopii zapasowej"
+              LastKnownLocation="ModelingProject.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="f98f2d77-0cef-4ec1-b591-334a3b8b606b"
+                  name="Database server"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="3377fff3-b6f6-48e6-a926-86e33deaa919"
+                  name="Manage backup data"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="99a06c7f-1464-4dcd-92a7-a6616cc9ae1e"
+            isDerived="false"
+            sourceEndRoleName="Database server"
+            targetEndRoleName="Save logs"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="18974e57-79c2-471f-9576-34263b007c59"
+              LastKnownName="Zapisywanie logów"
+              LastKnownLocation="ModelingProject.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="dc2c4045-8500-4a5c-a5fb-f479bb12e3a7"
+                  name="Database server"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="ed071a84-97d1-4cf1-a7d2-47ae7655eddc"
+                  name="Save logs"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="407d9a26-9c42-47bf-9860-aac971598971"
+            isDerived="false"
+            sourceEndRoleName="Database server"
+            targetEndRoleName="Send configurational data"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="601cdab2-1073-4b71-81c3-257ec911e017"
+              LastKnownName="Send configurational data"
+              LastKnownLocation="ModelingProject.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="ffbaf683-3ba2-4527-873a-3cf823fa0de5"
+                  name="Database server"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="13682c90-14ef-49dd-b083-1cbc5933c92b"
+                  name="Send configurational data"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="573502d3-a427-49e2-90b2-062140c5569b"
+            isDerived="false"
+            sourceEndRoleName="Database server"
+            targetEndRoleName="Send backup data"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="5e12ab85-686b-491d-8cb5-19954ce23179"
+              LastKnownName="Send backup data"
+              LastKnownLocation="ModelingProject.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="351c53f3-f203-4c53-b36a-5c903ee97ffd"
+                  name="Database server"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="178c8cc3-025d-4200-84f8-81b0b7e609c4"
+                  name="Send backup data"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="fe999aa1-0c8b-44be-9034-9da31443d668"
+            isDerived="false"
+            sourceEndRoleName="Database server"
+            targetEndRoleName="Validate user"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="a02b07b3-a7ba-4461-9945-8eac0af3958b"
+              LastKnownName="Uwierzytelnianie użytkownika"
+              LastKnownLocation="ModelingProject.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="268e128a-c0e9-406c-83c2-7106e432fe42"
+                  name="Database server"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="ca438175-1d34-452c-b328-043ebef5323e"
+                  name="Validate user"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="6258ad7c-c98f-4cd2-be38-4c7e191c6cc1"
+            isDerived="false"
+            sourceEndRoleName="Baza danych"
+            targetEndRoleName="Zapisywanie rankingu użytkownika"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="5940964e-9e37-4fad-9106-d9b8441cee13"
+              LastKnownName="Zapisywanie rankingu użytkownika"
+              LastKnownLocation="ModelingProject.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="46b1d865-231b-41e6-9277-0d293713b5d6"
+                  name="Baza danych"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="15440994-f019-4af6-9af2-f1a06fa2f358"
+                  name="Zapisywanie rankingu użytkownika"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="0a8e7f1c-28f9-4018-a247-0e6a70c5c59b"
+            isDerived="false"
+            sourceEndRoleName="Baza danych"
+            targetEndRoleName="Zapisywanie punktów użytkowników"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="a6e89d2d-84f5-453b-b8b4-7896dc5d2cf2"
+              LastKnownName="Zapisywanie punktów użytkowników"
+              LastKnownLocation="ModelingProject.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="98c80f67-120a-4886-b3db-78660afbc15d"
+                  name="Baza danych"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="5f124344-1eee-4da7-9809-b0d1a21fd43c"
+                  name="Zapisywanie punktów użytkowników"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="3d655036-e091-4549-823e-af1cfb5928fc"
+            isDerived="false"
+            sourceEndRoleName="Baza danych"
+            targetEndRoleName="Zapisywanie loginów i haseł użytkowników"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="be77cc84-bb62-4d32-8650-ed4548a19646"
+              LastKnownName="Zapisywanie loginów i haseł i adresów e-mail użytkowników"
+              LastKnownLocation="ModelingProject.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="f9b2100e-b403-447a-8677-9e3aa773a83e"
+                  name="Baza danych"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="6f6070c3-4ce1-4a12-be7b-95534e39f1f7"
+                  name="Zapisywanie loginów i haseł użytkowników"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="842b9a9b-2ec8-4c5a-aaf6-4c33f4df43fa"
+            isDerived="false"
+            sourceEndRoleName="Baza danych"
+            targetEndRoleName="Zapisywanie historii pojedynków"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="8d60e35a-ccd9-4e98-bbec-cc457d10bbcd"
+              LastKnownName="Zapisywanie historii pojedynków"
+              LastKnownLocation="ModelingProject.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="06106656-40f4-4513-9e26-ea298a66a325"
+                  name="Baza danych"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="c8692307-0420-4550-a0b0-f09d8a73dbc0"
+                  name="Zapisywanie historii pojedynków"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="621065bb-1552-4574-b9d8-eb378ee81328"
+            isDerived="false"
+            sourceEndRoleName="Baza danych"
+            targetEndRoleName="Dodawanie/Usuwanie użytkownika"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="b533c9e3-2033-4b69-9238-d54fde66499e"
+              LastKnownName="Dodawanie/Usuwanie użytkownika"
+              LastKnownLocation="ModelingProject.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="3d462288-40e5-445c-8f4c-970c73553cac"
+                  name="Baza danych"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="408c72e6-6152-40af-bfa6-a3c75428e338"
+                  name="Dodawanie/Usuwanie użytkownika"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+      </actor>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <subsystem
+        Id="2e0e33bd-8242-4392-b859-79d8500ac15f"
+        name="Kontekst bazy danych"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="f317d512-6f4f-4497-a5c4-899673486905"
+        name="Zapisywanie danych"
+        isAbstract="false"
+        isLeaf="false">
+        <subjects>
+          <subsystemMoniker
+            Id="2e0e33bd-8242-4392-b859-79d8500ac15f"
+            LastKnownName="Kontekst bazy danych"
+            LastKnownLocation="ModelingProject.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="b3b8d206-ef7b-48f3-8a64-71942e8386c3"
+        name="Zapisywanie kopii zapasowej"
+        isAbstract="false"
+        isLeaf="false">
+        <extendedCases>
+          <extend
+            Id="b4758352-2575-42a5-9918-0b3d71d9b312">
+            <useCaseMoniker
+              Id="f317d512-6f4f-4497-a5c4-899673486905"
+              LastKnownName="Zapisywanie danych"
+              LastKnownLocation="ModelingProject.uml" />
+          </extend>
+        </extendedCases>
+        <subjects>
+          <subsystemMoniker
+            Id="2e0e33bd-8242-4392-b859-79d8500ac15f"
+            LastKnownName="Kontekst bazy danych"
+            LastKnownLocation="ModelingProject.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="9bc04e44-1b5a-45ae-aeed-f71d3988ef80"
+        name="Zapisywanie danych użytkowników"
+        isAbstract="false"
+        isLeaf="false">
+        <extendedCases>
+          <extend
+            Id="9c744ab2-1b49-468d-86e1-3191b942009d">
+            <useCaseMoniker
+              Id="f317d512-6f4f-4497-a5c4-899673486905"
+              LastKnownName="Zapisywanie danych"
+              LastKnownLocation="ModelingProject.uml" />
+          </extend>
+        </extendedCases>
+        <subjects>
+          <subsystemMoniker
+            Id="2e0e33bd-8242-4392-b859-79d8500ac15f"
+            LastKnownName="Kontekst bazy danych"
+            LastKnownLocation="ModelingProject.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="76174e72-ee1c-4662-b928-0833ac83223d"
+        name="Change initial data"
+        isAbstract="false"
+        isLeaf="false">
+        <generalsInternal>
+          <generalization
+            Id="d6fa72a9-dc8a-4cb7-924d-bf3a5b3e1929"
+            isSubstitutable="false">
+            <useCaseMoniker
+              Id="263086f5-1ce7-4d6c-a092-3b6ed3c9427b"
+              LastKnownName="Manage initial data"
+              LastKnownLocation="ModelingProject.uml" />
+          </generalization>
+        </generalsInternal>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="18974e57-79c2-471f-9576-34263b007c59"
+        name="Zapisywanie logów"
+        isAbstract="false"
+        isLeaf="false">
+        <extendedCases>
+          <extend
+            Id="3bdf016d-56cf-46b3-b310-aeec397b19d8">
+            <useCaseMoniker
+              Id="f317d512-6f4f-4497-a5c4-899673486905"
+              LastKnownName="Zapisywanie danych"
+              LastKnownLocation="ModelingProject.uml" />
+          </extend>
+        </extendedCases>
+        <subjects>
+          <subsystemMoniker
+            Id="2e0e33bd-8242-4392-b859-79d8500ac15f"
+            LastKnownName="Kontekst bazy danych"
+            LastKnownLocation="ModelingProject.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="fe4e2e45-5533-4cd3-9006-4b7c5ad2f8fc"
+        name="Save initial data"
+        isAbstract="false"
+        isLeaf="false">
+        <generalsInternal>
+          <generalization
+            Id="cda84d2d-02cd-49bc-9c07-c0bf7fe30eb3"
+            isSubstitutable="false">
+            <useCaseMoniker
+              Id="263086f5-1ce7-4d6c-a092-3b6ed3c9427b"
+              LastKnownName="Manage initial data"
+              LastKnownLocation="ModelingProject.uml" />
+          </generalization>
+        </generalsInternal>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="42580c2d-815a-4a26-b6d3-f61da76e6cef"
+        name="Włączanie"
+        isAbstract="false"
+        isLeaf="false">
+        <subjects>
+          <subsystemMoniker
+            Id="2e0e33bd-8242-4392-b859-79d8500ac15f"
+            LastKnownName="Kontekst bazy danych"
+            LastKnownLocation="ModelingProject.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="d5eb62a9-0b4d-4738-a0ad-4123d4cfcba7"
+        name="Wyłączanie"
+        isAbstract="false"
+        isLeaf="false">
+        <subjects>
+          <subsystemMoniker
+            Id="2e0e33bd-8242-4392-b859-79d8500ac15f"
+            LastKnownName="Kontekst bazy danych"
+            LastKnownLocation="ModelingProject.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="601cdab2-1073-4b71-81c3-257ec911e017"
+        name="Send configurational data"
+        isAbstract="false"
+        isLeaf="false">
+        <generalsInternal>
+          <generalization
+            Id="82a936b5-95e6-48e7-940c-40985566d956"
+            isSubstitutable="false">
+            <useCaseMoniker
+              Id="fcf8e876-4eb8-450b-8b39-bc97b3d2e2cb"
+              LastKnownName="Send data to the communication server"
+              LastKnownLocation="ModelingProject.uml" />
+          </generalization>
+        </generalsInternal>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="5e12ab85-686b-491d-8cb5-19954ce23179"
+        name="Send backup data"
+        isAbstract="false"
+        isLeaf="false">
+        <generalsInternal>
+          <generalization
+            Id="5ea20ce7-dc61-4a56-a321-3840921f023c"
+            isSubstitutable="false">
+            <useCaseMoniker
+              Id="fcf8e876-4eb8-450b-8b39-bc97b3d2e2cb"
+              LastKnownName="Send data to the communication server"
+              LastKnownLocation="ModelingProject.uml" />
+          </generalization>
+        </generalsInternal>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="3354a181-c32e-4c22-b776-bdeafe12d746"
+        name="Zarządzanie logami"
+        isAbstract="false"
+        isLeaf="false">
+        <subjects>
+          <subsystemMoniker
+            Id="2e0e33bd-8242-4392-b859-79d8500ac15f"
+            LastKnownName="Kontekst bazy danych"
+            LastKnownLocation="ModelingProject.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="b533c9e3-2033-4b69-9238-d54fde66499e"
+        name="Dodawanie/Usuwanie użytkownika"
+        isAbstract="false"
+        isLeaf="false">
+        <subjects>
+          <subsystemMoniker
+            Id="2e0e33bd-8242-4392-b859-79d8500ac15f"
+            LastKnownName="Kontekst bazy danych"
+            LastKnownLocation="ModelingProject.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="a02b07b3-a7ba-4461-9945-8eac0af3958b"
+        name="Uwierzytelnianie użytkownika"
+        isAbstract="false"
+        isLeaf="false">
+        <subjects>
+          <subsystemMoniker
+            Id="2e0e33bd-8242-4392-b859-79d8500ac15f"
+            LastKnownName="Kontekst bazy danych"
+            LastKnownLocation="ModelingProject.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="263086f5-1ce7-4d6c-a092-3b6ed3c9427b"
+        name="Manage initial data"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="fcf8e876-4eb8-450b-8b39-bc97b3d2e2cb"
+        name="Send data to the communication server"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="be77cc84-bb62-4d32-8650-ed4548a19646"
+        name="Zapisywanie loginów i haseł i adresów e-mail użytkowników"
+        isAbstract="false"
+        isLeaf="false">
+        <extendedCases>
+          <extend
+            Id="99481129-0761-4f43-af9b-956d4882aafd">
+            <useCaseMoniker
+              Id="9bc04e44-1b5a-45ae-aeed-f71d3988ef80"
+              LastKnownName="Zapisywanie danych użytkowników"
+              LastKnownLocation="ModelingProject.uml" />
+          </extend>
+        </extendedCases>
+        <subjects>
+          <subsystemMoniker
+            Id="2e0e33bd-8242-4392-b859-79d8500ac15f"
+            LastKnownName="Kontekst bazy danych"
+            LastKnownLocation="ModelingProject.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="a6e89d2d-84f5-453b-b8b4-7896dc5d2cf2"
+        name="Zapisywanie punktów użytkowników"
+        isAbstract="false"
+        isLeaf="false">
+        <extendedCases>
+          <extend
+            Id="849cce89-71fb-4f2a-949d-83a0cbd5f19e">
+            <useCaseMoniker
+              Id="9bc04e44-1b5a-45ae-aeed-f71d3988ef80"
+              LastKnownName="Zapisywanie danych użytkowników"
+              LastKnownLocation="ModelingProject.uml" />
+          </extend>
+        </extendedCases>
+        <subjects>
+          <subsystemMoniker
+            Id="2e0e33bd-8242-4392-b859-79d8500ac15f"
+            LastKnownName="Kontekst bazy danych"
+            LastKnownLocation="ModelingProject.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="5940964e-9e37-4fad-9106-d9b8441cee13"
+        name="Zapisywanie rankingu użytkownika"
+        isAbstract="false"
+        isLeaf="false">
+        <extendedCases>
+          <extend
+            Id="162cbf9b-2f6b-417b-92d1-4ef4ea438d9e">
+            <useCaseMoniker
+              Id="9bc04e44-1b5a-45ae-aeed-f71d3988ef80"
+              LastKnownName="Zapisywanie danych użytkowników"
+              LastKnownLocation="ModelingProject.uml" />
+          </extend>
+        </extendedCases>
+        <subjects>
+          <subsystemMoniker
+            Id="2e0e33bd-8242-4392-b859-79d8500ac15f"
+            LastKnownName="Kontekst bazy danych"
+            LastKnownLocation="ModelingProject.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="8d60e35a-ccd9-4e98-bbec-cc457d10bbcd"
+        name="Zapisywanie historii pojedynków"
+        isAbstract="false"
+        isLeaf="false">
+        <extendedCases>
+          <extend
+            Id="821a3b61-e1d4-429c-a942-59c424497463">
+            <useCaseMoniker
+              Id="9bc04e44-1b5a-45ae-aeed-f71d3988ef80"
+              LastKnownName="Zapisywanie danych użytkowników"
+              LastKnownLocation="ModelingProject.uml" />
+          </extend>
+        </extendedCases>
+        <subjects>
+          <subsystemMoniker
+            Id="2e0e33bd-8242-4392-b859-79d8500ac15f"
+            LastKnownName="Kontekst bazy danych"
+            LastKnownLocation="ModelingProject.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <actor
+        Id="49a32240-5bc3-41aa-a3b5-16a969a816ee"
+        name="Admin"
+        isAbstract="false"
+        isLeaf="false">
+        <targetEnds>
+          <association
+            Id="c4e54edc-09bb-4552-b6e9-e65fd4339e94"
+            isDerived="false"
+            sourceEndRoleName="Admin"
+            targetEndRoleName="Read logs"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="3354a181-c32e-4c22-b776-bdeafe12d746"
+              LastKnownName="Zarządzanie logami"
+              LastKnownLocation="ModelingProject.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="6298203a-e845-405a-b6f6-1414c65539da"
+                  name="Admin"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="49c1e9ff-041d-43f2-b203-944fc0f1422a"
+                  name="Read logs"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="5e29439e-c0e7-49e8-87f5-defe60981406"
+            isDerived="false"
+            sourceEndRoleName="Admin"
+            targetEndRoleName="Włączanie"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="42580c2d-815a-4a26-b6d3-f61da76e6cef"
+              LastKnownName="Włączanie"
+              LastKnownLocation="ModelingProject.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="06467a77-7fa2-4bfd-9c3c-b021b96a0534"
+                  name="Admin"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="fe761da1-eba4-4d23-b7a4-4293de3c8993"
+                  name="Włączanie"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="a43358e3-46bd-47f6-9802-2a5e61e5fc23"
+            isDerived="false"
+            sourceEndRoleName="Admin"
+            targetEndRoleName="Wyłączanie"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="d5eb62a9-0b4d-4738-a0ad-4123d4cfcba7"
+              LastKnownName="Wyłączanie"
+              LastKnownLocation="ModelingProject.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="073e6fa3-9a7b-4d30-9122-c4d98956808e"
+                  name="Admin"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="4cb07128-d640-454e-ad1e-941958e292a0"
+                  name="Wyłączanie"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="1da28e9f-7cfa-40e5-88e5-e91e99d9e759"
+            isDerived="false"
+            sourceEndRoleName="Admin"
+            targetEndRoleName="Włączanie"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="255620d7-6c9e-41a0-b1ab-cd1c7a60c7ad"
+              LastKnownName="Włączanie"
+              LastKnownLocation="ModelingProject.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="68d7a95a-f5cd-40e6-9bb3-f3e4d4d61081"
+                  name="Admin"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="eb38df65-8dcc-43be-8bf9-1c6d8dde3a2e"
+                  name="Włączanie"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="95cae4b7-5730-47a3-a512-8613737e63a3"
+            isDerived="false"
+            sourceEndRoleName="Admin"
+            targetEndRoleName="Wyłączanie"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="b85ef47f-9f1f-4437-8c00-4c3a49c26f9b"
+              LastKnownName="Wyłączanie"
+              LastKnownLocation="ModelingProject.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="79b84a6a-2618-4686-9401-ef5f28cb864a"
+                  name="Admin"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="587f3c26-8bb0-42f7-a0e0-3322324b3138"
+                  name="Wyłączanie"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+      </actor>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="179c0442-34f1-45d4-ae88-4e4b09638307"
+        name="Otrzymywanie wykonanego ruchu od clienta"
+        isAbstract="false"
+        isLeaf="false">
+        <extendedCases>
+          <extend
+            Id="5c7e37c4-c519-466e-9fab-94f68d75d74e">
+            <useCaseMoniker
+              Id="44d60c1b-08b5-4e2f-bcab-41beb1900fdf"
+              LastKnownName="Otrzymywanie informacji od clienta"
+              LastKnownLocation="ModelingProject.uml" />
+          </extend>
+        </extendedCases>
+        <subjects>
+          <subsystemMoniker
+            Id="0650e670-45cc-44e7-ace3-dca8657926fc"
+            LastKnownName="Server"
+            LastKnownLocation="ModelingProject.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="464b9fb6-2981-404a-834f-672b5ab47535"
+        name="Wysyłanie wykonanego ruch do clienta"
+        isAbstract="false"
+        isLeaf="false">
+        <extendedCases>
+          <extend
+            Id="b4877862-4834-4445-aad4-af862b24bf55">
+            <useCaseMoniker
+              Id="5197799d-0679-455e-a59d-95107ca97770"
+              LastKnownName="Wysyłanie informacji do clienta "
+              LastKnownLocation="ModelingProject.uml" />
+          </extend>
+        </extendedCases>
+        <subjects>
+          <subsystemMoniker
+            Id="0650e670-45cc-44e7-ace3-dca8657926fc"
+            LastKnownName="Server"
+            LastKnownLocation="ModelingProject.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="36cb0027-79bb-46fb-ab57-b84a0492f561"
+        name="Otrzymywanie stanu gry"
+        isAbstract="false"
+        isLeaf="false">
+        <extendedCases>
+          <extend
+            Id="842cd60b-f96f-4029-87ca-e9feb1a4c6fa">
+            <useCaseMoniker
+              Id="44d60c1b-08b5-4e2f-bcab-41beb1900fdf"
+              LastKnownName="Otrzymywanie informacji od clienta"
+              LastKnownLocation="ModelingProject.uml" />
+          </extend>
+        </extendedCases>
+        <subjects>
+          <subsystemMoniker
+            Id="0650e670-45cc-44e7-ace3-dca8657926fc"
+            LastKnownName="Server"
+            LastKnownLocation="ModelingProject.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="ff806ca6-4ded-4785-8948-e90f150fa829"
+        name="Wysyłanie stanu gry"
+        isAbstract="false"
+        isLeaf="false">
+        <extendedCases>
+          <extend
+            Id="25a380cf-1654-41d4-ad02-a95740c99f97">
+            <useCaseMoniker
+              Id="5197799d-0679-455e-a59d-95107ca97770"
+              LastKnownName="Wysyłanie informacji do clienta "
+              LastKnownLocation="ModelingProject.uml" />
+          </extend>
+        </extendedCases>
+        <subjects>
+          <subsystemMoniker
+            Id="0650e670-45cc-44e7-ace3-dca8657926fc"
+            LastKnownName="Server"
+            LastKnownLocation="ModelingProject.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="04ecfd6d-f827-4c9e-b002-276bb7ee232f"
+        name="Zapisywanie danych w bazie danych"
+        isAbstract="false"
+        isLeaf="false">
+        <subjects>
+          <subsystemMoniker
+            Id="0650e670-45cc-44e7-ace3-dca8657926fc"
+            LastKnownName="Server"
+            LastKnownLocation="ModelingProject.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="255620d7-6c9e-41a0-b1ab-cd1c7a60c7ad"
+        name="Włączanie"
+        isAbstract="false"
+        isLeaf="false">
+        <subjects>
+          <subsystemMoniker
+            Id="0650e670-45cc-44e7-ace3-dca8657926fc"
+            LastKnownName="Server"
+            LastKnownLocation="ModelingProject.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="b85ef47f-9f1f-4437-8c00-4c3a49c26f9b"
+        name="Wyłączanie"
+        isAbstract="false"
+        isLeaf="false">
+        <subjects>
+          <subsystemMoniker
+            Id="0650e670-45cc-44e7-ace3-dca8657926fc"
+            LastKnownName="Server"
+            LastKnownLocation="ModelingProject.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="7e2d8cd6-1672-4af0-96d8-f0f4ef04450a"
+        name="Wysyłanie wiadomości pomiędzy clientami"
+        isAbstract="false"
+        isLeaf="false">
+        <extendedCases>
+          <extend
+            Id="5ecc5b07-2485-43d8-abeb-77baa0e0139b">
+            <useCaseMoniker
+              Id="5197799d-0679-455e-a59d-95107ca97770"
+              LastKnownName="Wysyłanie informacji do clienta "
+              LastKnownLocation="ModelingProject.uml" />
+          </extend>
+        </extendedCases>
+        <subjects>
+          <subsystemMoniker
+            Id="0650e670-45cc-44e7-ace3-dca8657926fc"
+            LastKnownName="Server"
+            LastKnownLocation="ModelingProject.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="600a1091-825c-4360-9bf9-b8f6af95c9a4"
+        name="Obliczanie punktów za grę"
+        isAbstract="false"
+        isLeaf="false">
+        <subjects>
+          <subsystemMoniker
+            Id="0650e670-45cc-44e7-ace3-dca8657926fc"
+            LastKnownName="Server"
+            LastKnownLocation="ModelingProject.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="76a638bb-e54e-4771-b326-e0d3c1ae9292"
+        name="Aktualizowanie danych użytkownika"
+        isAbstract="false"
+        isLeaf="false">
+        <subjects>
+          <subsystemMoniker
+            Id="0650e670-45cc-44e7-ace3-dca8657926fc"
+            LastKnownName="Server"
+            LastKnownLocation="ModelingProject.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="e171d128-c727-4cb9-a022-4bfec661418b"
+        name="Transmitowanie wideorozmowy"
+        isAbstract="false"
+        isLeaf="false">
+        <subjects>
+          <subsystemMoniker
+            Id="0650e670-45cc-44e7-ace3-dca8657926fc"
+            LastKnownName="Server"
+            LastKnownLocation="ModelingProject.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="8f147731-a456-4bb3-94c4-f6822accaa50"
+        name="Obliczanie rankingu użytkownika"
+        isAbstract="false"
+        isLeaf="false">
+        <subjects>
+          <subsystemMoniker
+            Id="0650e670-45cc-44e7-ace3-dca8657926fc"
+            LastKnownName="Server"
+            LastKnownLocation="ModelingProject.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="231acfff-0fd7-476b-95bf-18498f06ef4b"
+        name="Aktualizowanie konta użytkownika"
+        isAbstract="false"
+        isLeaf="false">
+        <extendedCases>
+          <extend
+            Id="1b818fb0-25cb-42cc-a42d-c89b90109f0d">
+            <useCaseMoniker
+              Id="600a1091-825c-4360-9bf9-b8f6af95c9a4"
+              LastKnownName="Obliczanie punktów za grę"
+              LastKnownLocation="ModelingProject.uml" />
+          </extend>
+          <extend
+            Id="c311d5bf-284c-4ab9-a5d3-9d40218294b8">
+            <useCaseMoniker
+              Id="8f147731-a456-4bb3-94c4-f6822accaa50"
+              LastKnownName="Obliczanie rankingu użytkownika"
+              LastKnownLocation="ModelingProject.uml" />
+          </extend>
+        </extendedCases>
+        <subjects>
+          <subsystemMoniker
+            Id="0650e670-45cc-44e7-ace3-dca8657926fc"
+            LastKnownName="Server"
+            LastKnownLocation="ModelingProject.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="2369f884-98cf-422a-83ba-e7cceba2b1e1"
+        LastKnownName="Server"
+        LastKnownLocation="Package_0923.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="8e972387-6db6-4032-9d5c-ed15867ae36b"
+        LastKnownName="Client"
+        LastKnownLocation="Package_0936.uml" />
+    </packageHasNamedElement>
+  </packagedElements>
+  <primitiveType
+    Id="220a3521-e091-4221-bae9-3ef9018e845c"
+    name="Integer"
+    isAbstract="false"
+    isLeaf="false" />
+  <primitiveType
+    Id="8943dc84-709e-4f62-b15a-a3273aa6f165"
+    name="Boolean"
+    isAbstract="false"
+    isLeaf="false" />
+  <primitiveType
+    Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+    name="String"
+    isAbstract="false"
+    isLeaf="false" />
+  <primitiveType
+    Id="3ab42e7d-4969-445a-b209-471f5cb8209c"
+    name="UnlimitedNatural"
+    isAbstract="false"
+    isLeaf="false" />
+</modelStoreModel>

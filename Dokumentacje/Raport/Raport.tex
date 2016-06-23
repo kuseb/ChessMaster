@@ -1,0 +1,119 @@
+ \documentclass[12pt]{article}
+\usepackage{polski}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\usepackage{listings}
+\usepackage{color}
+
+\definecolor{dkgreen}{rgb}{0,0.6,0}
+\definecolor{gray}{rgb}{0.5,0.5,0.5}
+\definecolor{mauve}{rgb}{0.58,0,0.82}
+
+\lstset{frame=tb,
+  aboveskip=3mm,
+  belowskip=3mm,
+  showstringspaces=false,
+  columns=flexible,
+  basicstyle={\small\ttfamily},
+  numbers=none,
+  numberstyle=\tiny\color{gray},
+  keywordstyle=\color{blue},
+  commentstyle=\color{dkgreen},
+  stringstyle=\color{mauve},
+  breaklines=true,
+  breakatwhitespace=true,
+  tabsize=3
+}
+
+
+\begin{document}
+
+\begin{titlepage}
+\centering
+\includegraphics[width=0.15\textwidth]{logo}\par\vspace{1cm}
+{\scshape\LARGE Politechnika Warszawska \par}
+\vspace{1cm}
+{\huge\bfseries  Raport z testów aplikacji \\ Chess Master \linebreak \\  \par}
+\vspace{1cm}
+{\bfseries Projekt Indywidualny \par}
+\vspace{2cm}
+{\Large\itshape  Sebastian Kurpios \par}
+\end{titlepage}
+
+\tableofcontents
+\newpage
+
+\section{Tester}
+Z powodu opóźnienia w realizacji projektu testerem został jej twórca: Sebastian Kurpios, który postarał się rzetelnie wykonać to zadanie.
+
+\section{Platformy}
+Zdecydowałem się przetestować aplikację na 2 platformach: laptopie oraz komputerze stacjonarnym. \\
+Specyfikacja sprzętowa:
+\begin{itemize}
+\item Laptop
+\begin{itemize}
+\item Producent: MSI
+\item Model: GE40 20C Dragon Eyes
+\item Procesor: Intel® Core™ i7 4-tej generacji
+\item Pamięć RAM: 16 GB
+\item Karta Graficzna: Nvidia GeForce GTX 760M 
+\item System operacyjny: Windows 10
+\end{itemize}
+\item Komputer stacjonarny
+\begin{itemize}
+\item Producent: Vobis
+\item Model: W7P E6300
+\item Procesor:  Intel Pentium Dual Core E6300
+\item Pamięć RAM: 2 GB
+\item Karta Graficzna: ATI RADEON HD 4670
+\item System operacyjny: Windows 7
+\end{itemize}
+\end{itemize} 
+\newpage
+\section{Testy}
+\subsection{Testy modelu danych i funkcjonalności}
+\begin{enumerate}
+\item Test poprawnego wyznaczania ruchów Laptop: OK, Komputer stacjonarny: OK
+\item Test poprawnego aktualizowania danych: Laptop: OK, Komputer stacjonarny: OK
+\item Test usuwania z modelu zbitych figur: Laptop: OK, Komputer stacjonarny: OK
+\item Test wczytywania planszy (pliku .3ds): Laptop: OK, Komputer stacjonarny: OK
+\item Test wczytywania figur: Laptop: OK, Komputer stacjonarny: OK
+\item Test podmiany siatki figury (promocja piona): Laptop: OK, Komputer stacjonarny: OK
+\item Test logowania: Laptop: BŁĄD, Komputer stacjonarny: BŁĄD - UWAGA! Brak implementacji z powodu braku serwera
+\item Test rejestracji: Laptop: BŁĄD, Komputer stacjonarny: BŁĄD - UWAGA! Brak implementacji z powodu braku serwera
+\end{enumerate}
+\subsection{Testy interfejsu}
+\subsubsection{Testy interfejsu planszy}
+\begin{enumerate}
+\item Test naciśnięcia na wszystkie pionki - Laptop: OK, Komputer stacjonarny: OK
+\item Test wybrania innego pola niż zaznaczone: Laptop: OK, Komputer stacjonarny: OK
+\item Test wybrania właściwego pola: Laptop: OK, Komputer stacjonarny: OK
+\item Test wykonania się animacji dla wszystkich figur: Laptop: OK, Komputer stacjonarny: OK
+\item Test zbijania i usuwania z pola figur: Laptop: OK, Komputer stacjonarny: OK
+\item Test roszady i bicia w przelocie:
+Laptop: OK, Komputer stacjonarny: OK
+\item Test końca czasu:
+Laptop: OK, Komputer stacjonarny: OK
+\item Test poprawności wyświetlania wykonanych ruchów
+Laptop: OK, Komputer stacjonarny: OK
+\item Test czatu: Laptop: OK, Komputer stacjonarny: OK - UWAGA! Wiadomości wyświetlają się, ale nie są nigdzie wysyłane z powodu braku serwera!
+\end{enumerate}
+\subsubsection{Testy interfejsu logowania i rejestracji}
+\begin{enumerate}
+\item Test zalogowania się - Laptop: OK, Komputer stacjonarny: OK - UWAGA! można zalogować się używając dowolnego hasła i loginu, ponieważ nie ma serwera, po zalogowaniu zmienia się zdjęcie profilowe oraz nazwa użytkownika
+\item Test rejestracji - tak samo jak w przypadku logowania, dane nie zapisują się nigdzie!
+\item Test logowania przez \textit{Facebook} - Laptop: BRAK REAKCJI, Komputer stacjonarny: BRAK REAKCJI - funkcjonalność zostanie wykonana w przyszłości
+\end{enumerate}
+\subsection{Testy wydajnościowe}
+\begin{enumerate}
+\item Laptop - Aplikacja działa płynnie, figury jak i animacje poruszają się zgodnie z oczekiwaniami użytkownika, "przycięcia" aplikacji nie występują
+\item Komputer stacjonarny - Aplikacja działa płynnie, chociaż czasami można zaobserwować "przycinanie się" aplikacji. Jest to spowodowane najprawdopodobniej przez słabszą architekturę tej jednostki, jak i również może niewydajną i nieoptymalną implementacje
+\end{enumerate}
+\section{Interfejs}
+Interfejs jest czytelny i intuicyjny. Grafika 3D robi wrażenie, chociaż kolor tła oraz czcionka, która została użyta, mogą nie przypaść wszystkim do gustu.
+\section{Jakość kodu}
+Kod zawiera dosyć mało komentarzy i na pierwszy rzut oka wydaje się dosyć nieczytelny. Nazwy zmiennych i klas są dosyć intuicyjne, ale niektóre z metod są za długie i wykonują więcej niż atomowa funkcjonalność, jaką powinny.
+
+\section{Podumowanie}
+Aplikacja posiadała kilka błędów, ale są one spowodowane głównie przez brak implementacji dancyh modułów na tym etapie rozwoju. Interfejs jest intuicyjny i względnie ładny. Niestety, jakość kodu zostawia trochę do życzenia i powinna zostać poprawiona. 
+\end{document}

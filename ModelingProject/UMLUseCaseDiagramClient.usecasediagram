@@ -1,0 +1,801 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<useCaseModelRoot xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm5="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/dsltools/LogicalClassDesigner" xmlns:dm10="http://schemas.microsoft.com/dsltools/SimpleShapesModel" dslVersion="1.0.0.0" Id="379f5d9e-1bf5-4788-ad41-36d8c6d67bfc" name="UMLUseCaseDiagram" linkedPackageId="c169d41a-a59b-4983-a523-5336ec1ee34e" xmlns="http://schemas.microsoft.com/dsltools/UseCaseModel">
+  <packagedElements>
+    <useCaseModelRootHasTypes>
+      <actor Id="db81980b-bbee-4020-9466-141680989bc5" name="Gracz" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="a2051577-10cb-4ace-9167-74df8051c5fa" />
+        <targetEnds>
+          <association Id="28c12f4f-8e5a-4d9c-adfa-eb141cf8f0ea" isDerived="false" sourceEndRoleName="Gracz" targetEndRoleName="Włączanie aplikacji" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="abaed440-ae2e-4cc5-bb0a-b0c138bd9563" LastKnownName="Włączanie aplikacji" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="2e8d83ca-2dc3-4640-bf00-2c625e4fab3c" name="Gracz" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="8ba7f24c-b453-49b9-beb4-4ea34bfc0869" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="d17f5632-bdde-4b9b-a68c-c9e7ddc88fbc" name="Włączanie aplikacji" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="8792a7a3-ebf9-4397-ad47-b4635b6e1056" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="de738862-1315-4b7c-9639-72c4350782cd" />
+          </association>
+          <association Id="9c262c36-8440-4e5c-9c0a-23926816d602" isDerived="false" sourceEndRoleName="Gracz" targetEndRoleName="Rejestrowanie się" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="8eb5a3a4-39b9-4c3e-8b58-d851e376af29" LastKnownName="Rejestrowanie się" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="2d42b1c9-36b3-41f6-8ae1-04a1b588ad64" name="Gracz" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="a21c2997-7f8d-45ea-9dd0-4849a0f10ea9" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="afe8f374-76ac-4c75-82a3-4da3c70eb349" name="Rejestrowanie się" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="8c6f065d-fbc7-4ae1-a439-ff4ae534c5ae" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="186a714f-e88e-4483-80fb-20bd025e9d5a" />
+          </association>
+          <association Id="7259abad-7853-4b72-86b2-1ae3f5d94adf" isDerived="false" sourceEndRoleName="Gracz" targetEndRoleName="Logowanie" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="2e37b2d3-19f1-4732-94f2-d7632a4a1373" LastKnownName="Logowanie" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="fe9b3a4a-9412-490b-8151-4e7a86977be0" name="Gracz" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="022d0011-df52-4cc5-bc21-5e0e230d870b" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="c1ec62b9-5aba-48b8-8ab4-323db83f3730" name="Logowanie" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="5a68a709-b576-457a-bd37-5f06dc15d17c" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="3a7e6683-d871-4bc4-96f5-e77b92197c53" />
+          </association>
+          <association Id="3896efd3-4438-4d44-989c-fbcdbf80cd7f" isDerived="false" sourceEndRoleName="Gracz" targetEndRoleName="Wybranie gry wieloosobowej" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="aa5d007f-e2ef-4860-bb80-1f536146db69" LastKnownName="Wybieranie gry wieloosobowej" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="ef8e3905-99ac-4f67-8978-5d0bfe3ccca2" name="Gracz" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="60ecd9ba-f3b9-4b0e-9fd1-366b2c7276bc" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="257d4f43-fc96-4e18-8eb1-405cbd07ada2" name="Wybranie gry wieloosobowej" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="fd918304-aae5-4def-90ce-91903f0410c8" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="3319e9f9-09bc-49ce-a043-e5365fd2aab0" />
+          </association>
+          <association Id="4056ffa0-f7a2-4b04-baf7-b563c66b1f03" isDerived="false" sourceEndRoleName="Gracz" targetEndRoleName="Wybranie gry jednoosobowej" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="8d69955c-b5a4-4c3d-845f-a041e2db94a8" LastKnownName="Wybieranie gry jednoosobowej" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="e8e4b768-10b5-41ea-8a14-e51125446b6c" name="Gracz" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="05285d30-ca1b-4247-b4fc-2eb183681d92" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="ddba5989-e900-4be1-b295-e2de0c573fc6" name="Wybranie gry jednoosobowej" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="f71f1b41-ddcb-41d8-b85d-edda040a80a9" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="d5683555-f96a-4b47-b0d7-c79c99f34828" />
+          </association>
+          <association Id="24bf7fc2-3895-4fb5-abfa-1de74b15ae11" isDerived="false" sourceEndRoleName="Gracz" targetEndRoleName="Wyłączanie aplikacji" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="276a9776-2611-4b16-b08a-325a6fe05ccd" LastKnownName="Wyłączanie aplikacji" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="90da9ab9-d028-4eaf-a071-e72677879498" name="Gracz" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="19b09885-6bc0-4e9e-a3ac-c2d33bff8af6" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="56a016d6-f109-4ee0-aae4-7db8a3d6038b" name="Wyłączanie aplikacji" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="72aae0be-b062-464c-bc69-842c3a3bf6de" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="74dea42f-4d91-4315-8ed9-dd250b2c8138" />
+          </association>
+          <association Id="b1302e74-62e0-4b18-9d1b-c988ef38d95a" isDerived="false" sourceEndRoleName="Gracz" targetEndRoleName="Zarządzanie grą jednoosobową" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="ac1ba789-2b02-46c9-b10c-dc0edbffcacb" LastKnownName="Zarządzanie grą jednoosobową" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="524732d7-9fd3-4215-9f86-77f1c1fa0e4b" name="Gracz" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="66f333d6-1092-4b48-94fe-950d3eb7ef4a" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="b6884811-b150-4159-984c-418fd6804350" name="Zarządzanie grą jednoosobową" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="557f4e26-3a27-4aef-8fe2-6c8643b2da16" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="ec3d2f0c-bf2b-40ce-b637-23a44923e7db" />
+          </association>
+          <association Id="84ea3345-3ff8-4823-9244-cba3a2fb959c" isDerived="false" sourceEndRoleName="Gracz" targetEndRoleName="Zarządzanie grą wieloosobową" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="2d58f606-2785-44c7-830a-55acac27c66f" LastKnownName="Zarządzanie grą wieloosobową" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="f92158d8-c3fc-476f-8e51-e8fb82120a61" name="Gracz" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="16cc62ff-a4c8-43a5-860d-f7655e7d27c7" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="9c326be3-8328-4b2a-be9a-8eaf08bcb592" name="Zarządzanie grą wieloosobową" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="15eee228-e17f-4eec-a501-6055cdf38ade" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="dc793b5b-7e4f-4fcb-8011-c30cbab2a3a6" />
+          </association>
+          <association Id="5b67fcd4-33b2-4d23-8f2b-01047b688da9" isDerived="false" sourceEndRoleName="Gracz" targetEndRoleName="Komunikowanie się z przeciwnikiem" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="6d86a1ae-e075-4d86-a72c-bc9ddebe7b93" LastKnownName="Komunikowanie się z przeciwnikiem" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="dd48d4dd-3619-4ad8-a46e-1a2e0733dc3f" name="Gracz" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="6a755fae-9bbd-477f-bc05-e58bf67fe370" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="c85fcfab-8898-446c-91c9-7092c43a409e" name="Komunikowanie się z przeciwnikiem" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="70ec912f-467e-47c0-9fae-33589ea22f94" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="68a0577a-828f-4965-8f26-1a9c44d90f73" />
+          </association>
+        </targetEnds>
+      </actor>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <subsystem Id="cd47ec62-6ddf-4e85-bab6-d081f8125284" name="Client" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="b9b1be73-2026-488e-bf79-7bf373159850" />
+      </subsystem>
+    </useCaseModelRootHasTypes>
+    <packageHasNamedElement>
+      <useCase Id="abaed440-ae2e-4cc5-bb0a-b0c138bd9563" name="Włączanie aplikacji" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="dea73e18-27e2-4efe-9f7c-480ac134b843" />
+        <subjects>
+          <subsystemMoniker Id="cd47ec62-6ddf-4e85-bab6-d081f8125284" LastKnownName="Client" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="276a9776-2611-4b16-b08a-325a6fe05ccd" name="Wyłączanie aplikacji" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="1dfe34e9-abe7-49fe-9904-0f24ff1ac43d" />
+        <subjects>
+          <subsystemMoniker Id="cd47ec62-6ddf-4e85-bab6-d081f8125284" LastKnownName="Client" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="8eb5a3a4-39b9-4c3e-8b58-d851e376af29" name="Rejestrowanie się" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="6d8a24c3-06db-4a00-8a93-b2fae3166808" />
+        <subjects>
+          <subsystemMoniker Id="cd47ec62-6ddf-4e85-bab6-d081f8125284" LastKnownName="Client" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="2e37b2d3-19f1-4732-94f2-d7632a4a1373" name="Logowanie" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="789103b4-86f4-43c3-80e9-4c2c83dc2c0a" />
+        <subjects>
+          <subsystemMoniker Id="cd47ec62-6ddf-4e85-bab6-d081f8125284" LastKnownName="Client" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="8d69955c-b5a4-4c3d-845f-a041e2db94a8" name="Wybieranie gry jednoosobowej" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="6344cada-b756-48d1-8c71-486da3507d39" />
+        <extendedCases>
+          <extend Id="e4d204fb-614e-4913-a0d8-37658745028b">
+            <useCaseMoniker Id="49011954-219a-453e-9a59-661bad6db186" LastKnownName="Wybieranie rodzaju gry" />
+            <elementDefinition Id="754727bc-1cc2-47d0-8334-b86a4fb74c36" />
+          </extend>
+        </extendedCases>
+        <subjects>
+          <subsystemMoniker Id="cd47ec62-6ddf-4e85-bab6-d081f8125284" LastKnownName="Client" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="aa5d007f-e2ef-4860-bb80-1f536146db69" name="Wybieranie gry wieloosobowej" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="25c1a98f-cf75-49d2-98da-bb00ff647000" />
+        <extendedCases>
+          <extend Id="d005610e-f1f9-4c2f-929e-6b3337211ac7">
+            <useCaseMoniker Id="49011954-219a-453e-9a59-661bad6db186" LastKnownName="Wybieranie rodzaju gry" />
+            <elementDefinition Id="834cbc0f-3ce0-4c84-9e39-1ac20d6d078c" />
+          </extend>
+        </extendedCases>
+        <subjects>
+          <subsystemMoniker Id="cd47ec62-6ddf-4e85-bab6-d081f8125284" LastKnownName="Client" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="49011954-219a-453e-9a59-661bad6db186" name="Wybieranie rodzaju gry" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="dd58ad28-6505-45b9-addd-a7b43e2c7284" />
+        <subjects>
+          <subsystemMoniker Id="cd47ec62-6ddf-4e85-bab6-d081f8125284" LastKnownName="Client" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="ac1ba789-2b02-46c9-b10c-dc0edbffcacb" name="Zarządzanie grą jednoosobową" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="3c640b48-0906-41c6-988f-3306d2cd893d" />
+        <additions>
+          <include Id="18cc5214-1b2b-4b64-a053-f2ab2c7d8215">
+            <useCaseMoniker Id="64740cc2-e777-43ca-ac67-383d2f0fc582" LastKnownName="Zapisywanie stanu gry na dysku" />
+            <elementDefinition Id="2a27b273-4ba7-4f7b-9919-78ce55a5896c" />
+          </include>
+          <include Id="626e495c-e510-44fe-817f-61fb3062584e">
+            <useCaseMoniker Id="4ac5ac1a-f0c5-413a-9a79-02ccbea8125e" LastKnownName="Przywracanie stanu gry" />
+            <elementDefinition Id="43fb9713-01d9-44e5-84a4-43343c2bcfb8" />
+          </include>
+          <include Id="394a6e94-9872-4c86-b22d-f689f543d679">
+            <useCaseMoniker Id="f0c40fa5-6f5b-4fb7-bd40-47177c8370a7" LastKnownName="Wybieranie stopnia trudności" />
+            <elementDefinition Id="37ff229f-6a07-47d1-b7a7-1863820f9eff" />
+          </include>
+        </additions>
+        <subjects>
+          <subsystemMoniker Id="cd47ec62-6ddf-4e85-bab6-d081f8125284" LastKnownName="Client" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="64740cc2-e777-43ca-ac67-383d2f0fc582" name="Zapisywanie stanu gry na dysku" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="9efa39a6-c85b-44b3-b9de-aca5a2bf3a1b" />
+        <subjects>
+          <subsystemMoniker Id="cd47ec62-6ddf-4e85-bab6-d081f8125284" LastKnownName="Client" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="4ac5ac1a-f0c5-413a-9a79-02ccbea8125e" name="Przywracanie stanu gry" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="3ec5f8d8-67ac-40a1-a1cc-03a56816f008" />
+        <subjects>
+          <subsystemMoniker Id="cd47ec62-6ddf-4e85-bab6-d081f8125284" LastKnownName="Client" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="f0c40fa5-6f5b-4fb7-bd40-47177c8370a7" name="Wybieranie stopnia trudności" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="91db52f2-e3f5-494a-90b0-4a272db7ab94" />
+        <subjects>
+          <subsystemMoniker Id="cd47ec62-6ddf-4e85-bab6-d081f8125284" LastKnownName="Client" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="1360f073-688b-476a-a8b7-fa617c02efbf" name="Obliczanie ilości punktów za grę jednoosobową" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="b9232735-0532-4323-8c9f-0fa595ce21c8" />
+        <subjects>
+          <subsystemMoniker Id="cd47ec62-6ddf-4e85-bab6-d081f8125284" LastKnownName="Client" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="4742af23-eeb4-4027-9fb0-9a725645ddc1" name="Zapisanie wyniku gry jednoosobowej na dysku" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="c6139aab-f960-490c-a3f7-89a2d77ac99f" />
+        <subjects>
+          <subsystemMoniker Id="cd47ec62-6ddf-4e85-bab6-d081f8125284" LastKnownName="Client" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="923f8738-3c99-4651-9f85-b2bc4c4a6d93" name="Przypisywanie wyniku do konta" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="fd2476e7-1188-4733-9aa4-d876e05087eb" />
+        <subjects>
+          <subsystemMoniker Id="cd47ec62-6ddf-4e85-bab6-d081f8125284" LastKnownName="Client" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <useCaseModelRootHasTypes>
+      <actor Id="0a5bd15b-c16f-4d05-ab12-f44539397527" name="Client" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="3b681a09-9e7c-4da5-b123-0a76e695db0f" />
+        <targetEnds>
+          <association Id="afcc3845-53ed-48da-a019-db11f540d28d" isDerived="false" sourceEndRoleName="Client" targetEndRoleName="Obliczanie ilości punktów za grę jednoosobową" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="1360f073-688b-476a-a8b7-fa617c02efbf" LastKnownName="Obliczanie ilości punktów za grę jednoosobową" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="f54943f5-d707-47d3-9d37-c40363f60cce" name="Client" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="bdaf36dd-0f89-4ffd-aa10-d4edae3b1181" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="baa5ca78-5e09-45ec-9102-15ede5943ef2" name="Obliczanie ilości punktów za grę jednoosobową" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="e3d1bb2a-9417-4173-b6ff-0ac4a1cfc7b4" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="799d481b-4407-4c31-b356-76c03947f2e5" />
+          </association>
+          <association Id="a307102d-af44-4060-926a-82526c579308" isDerived="false" sourceEndRoleName="Client" targetEndRoleName="Przypisanie wyniku do konta" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="923f8738-3c99-4651-9f85-b2bc4c4a6d93" LastKnownName="Przypisywanie wyniku do konta" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="5e677fc9-8bff-4d02-b239-a428ee7e76b3" name="Client" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="f89918dd-95e2-43ab-a124-88319cbe4c50" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="66ee4580-0c79-42fb-a782-c705d9784401" name="Przypisanie wyniku do konta" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="81396155-5409-4815-a4d9-a1d601598f06" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="7953ec48-fd45-4788-af49-5fa186b6580f" />
+          </association>
+          <association Id="d7badcbe-f8be-457a-9350-127e0d76df00" isDerived="false" sourceEndRoleName="Client" targetEndRoleName="Zapisanie wyniku gry jednoosobowej na dysku" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="4742af23-eeb4-4027-9fb0-9a725645ddc1" LastKnownName="Zapisanie wyniku gry jednoosobowej na dysku" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="8000dab9-44ee-4fdf-a236-ae782b95bc83" name="Client" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="b476055d-b8bf-40c7-8918-55001078aae6" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="f0a5cefe-6a4d-41d9-9b61-02d41aee0984" name="Zapisanie wyniku gry jednoosobowej na dysku" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="4f7424e3-86af-4c4d-90cc-0c5d715e206c" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="c5e030f1-f3c1-4498-a20e-0757aa1acf56" />
+          </association>
+          <association Id="b6336f3d-4eb3-4462-b875-905c00b2fee9" isDerived="false" sourceEndRoleName="Client" targetEndRoleName="Rejestrowanie klienta na serwerze" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="7b56ff3b-8aa6-40d0-907e-4cb27c6950cb" LastKnownName="Rejestrowanie klienta na serwerze" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="3207a35e-50cc-47e3-8075-3ae8191534b9" name="Client" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="b172a979-9e24-432d-b5fe-f238ad291468" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="557aa56a-a861-4136-b7d0-ca106f887574" name="Rejestrowanie klienta na serwerze" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="f03e4104-dd04-4ec0-baf7-d86f1d732d27" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="f5741163-424d-4dc3-9bcc-cf9fdc5702e3" />
+          </association>
+          <association Id="66d7b413-298d-4e83-b959-752f3f194c75" isDerived="false" sourceEndRoleName="Client" targetEndRoleName="Wysyłanie wyniku do serwera" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="64dbd3ca-3043-43d7-9cd8-a0988ac7c982" LastKnownName="Wysyłanie wyniku do serwera" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="37933e01-9556-4cc9-8c47-62d2b8c117ba" name="Client" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="e8fe428e-ab84-4dfb-972e-25d9ab27c08a" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="ef2774f5-63c0-42f5-935e-78226f1cb99f" name="Wysyłanie wyniku do serwera" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="588242bd-0b55-4fd4-83b0-c6ca608784a5" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="b80d2168-ecd4-47d3-8e66-7bc925348f61" />
+          </association>
+          <association Id="ebea3602-9902-447b-8924-fdb8fd344447" isDerived="false" sourceEndRoleName="Client" targetEndRoleName="Wysyłanie wykonanego ruchu do serwera" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="0369e214-5c0f-4720-b268-9224032c38ae" LastKnownName="Wysyłanie wykonanego ruchu do serwera" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="b8bda2f5-0546-4b01-afd2-451bb66ec706" name="Client" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="2a5e01f8-cb8f-46b6-a451-202ec839ee29" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="a88faf11-1955-4f95-9bbb-b654362de14f" name="Wysyłanie wykonanego ruchu do serwera" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="8443096b-a5d2-4068-a46c-6f1edc6efc1a" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="d9438e03-e455-4a30-822c-f807e7977085" />
+          </association>
+          <association Id="1769d826-85f2-4249-9a53-1737ffe49166" isDerived="false" sourceEndRoleName="Client" targetEndRoleName="Wysyłanie wiadomości czatu do serwera" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="ed8d0a79-8086-46fb-a8c1-28bfd81567b1" LastKnownName="Wysyłanie wiadomości czatu do serwera" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="f8630141-141d-43a6-abec-4dee0155b9ee" name="Client" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="13161ade-6d15-44b1-9910-b85a743f98cc" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="022b5624-dfb6-4586-b90d-9e2417617c8c" name="Wysyłanie wiadomości czatu do serwera" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="766986c9-9ffa-4aa3-8156-0fdd63f6cbe3" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="19e99a9b-e358-4395-a8a0-1259c22c3d3d" />
+          </association>
+          <association Id="8097106b-f11e-47db-96b9-4ed355d3c8c0" isDerived="false" sourceEndRoleName="Client" targetEndRoleName="Obsługa wideorozmowy" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="9e5d459b-4136-4133-8998-dc598f85a11c" LastKnownName="Obsługa wideorozmowy" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="be4d7e16-989c-4d8a-8ac4-5678d251cde7" name="Client" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="e85bb7d8-4532-4aeb-9ce2-4b923552f11e" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="4634d76e-971e-4312-a661-eefd4876e0ec" name="Obsługa wideorozmowy" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="59f70896-c21c-4f65-aa09-f3aa96d85206" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="028290eb-381e-4524-b461-522214e60a5e" />
+          </association>
+          <association Id="22cd85dd-aadf-41d1-a14e-4955167edb74" isDerived="false" sourceEndRoleName="Client" targetEndRoleName="Ustawienie jakości wideorozmowy" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="d397d248-5372-46da-85e9-f962ae8520c4" LastKnownName="Ustawienie jakości wideorozmowy" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="2c810dda-be26-4910-af79-83f2a0ce631a" name="Client" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="66acff62-f6a9-406a-a22a-3d0adf762399" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="17a5a7e8-e8bf-46d7-b074-0ffedd784758" name="Ustawienie jakości wideorozmowy" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="73d2915c-78b2-4bf9-bf60-f5d9de5f64b2" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="16640733-2bb7-4b5b-9b85-2949410c3638" />
+          </association>
+          <association Id="db85c78a-1a57-4dee-a809-511010a7d7ee" isDerived="false" sourceEndRoleName="Client" targetEndRoleName="Wysyłanie stanu gry" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="2d07abce-b505-4f0b-8cb3-6a1b9009ae48" LastKnownName="Wysyłanie stanu gry" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="9ef40326-a296-4b68-b3de-3f3dd1f6e087" name="Client" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="841d8522-6a44-475d-a1a2-35e9f42f94f5" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="debcf37c-800b-4998-b558-812811487413" name="Wysyłanie stanu gry" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="13108c6f-cd9c-4e7c-96f1-2c11c9d1dbb0" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="5b264fc5-b0f9-4139-bcde-64c5eede8711" />
+          </association>
+          <association Id="b73061a4-68b2-4ee3-acfd-ca52e1f0a1a6" isDerived="false" sourceEndRoleName="Client" targetEndRoleName="Wizualizacja ruchu przeciwnika" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="00405929-b5dd-473d-9c12-7112e27e1be2" LastKnownName="Wizualizacja ruchu przeciwnika" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="3ca17c04-e389-42af-bd9f-7f684cfd0953" name="Client" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="cf9a9cee-6e96-40a5-8998-be7967ae38d8" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="2f7d00ea-9a01-4df8-b56f-f44d42b7268f" name="Wizualizacja ruchu przeciwnika" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="c964576c-7121-4e96-bccd-6624deb23c73" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="5121401d-7776-4d94-af03-841f52a888ad" />
+          </association>
+          <association Id="0d2bc8b3-73e2-4bb7-b041-d8ca96cb6199" isDerived="false" sourceEndRoleName="Client" targetEndRoleName="Odbieranie informacji o dostępnych przeciwnikach" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="492e1af0-5851-4955-8e8a-e4f7d3abb878" LastKnownName="Odbieranie informacji o dostępnych przeciwnikach" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="9a0bda76-a250-45c0-a758-e1bb62be3be7" name="Client" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="1f03eb96-1f60-44b1-8ddd-fcb47bcc7298" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="8e13b80b-372a-4918-bc0e-2415cf57dc1a" name="Odbieranie informacji o dostępnych przeciwnikach" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="a2310e86-b019-46ed-81c5-16cf7c5a2dfe" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="68ca45cf-cb50-4d93-ba36-2286de036c7b" />
+          </association>
+          <association Id="14dbb38d-8e02-4282-a4b9-a0e3b94788b8" isDerived="false" sourceEndRoleName="Client" targetEndRoleName="Odbieranie informacji o ruchu przeciwnika" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="23f6c2b2-5b7b-4a37-94aa-819518e73bd3" LastKnownName="Odbieranie informacji o ruchu przeciwnika" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="4aafa3b3-5b55-4d98-a090-710771dccb05" name="Client" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="fb42ecb1-66f9-40ad-8b5f-a9112bd8962f" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="2ec04507-093a-4488-9426-b111b8cf871b" name="Odbieranie informacji o ruchu przeciwnika" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="5050a043-fbe9-4922-94c1-cc30793ace92" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="12f4f4c6-2e58-4148-b3af-09f67295dc5b" />
+          </association>
+          <association Id="5035b76f-b9b5-42be-9282-8d4ff5afa9b8" isDerived="false" sourceEndRoleName="Client" targetEndRoleName="Odbieranie informacji o pojedynku" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="71f5d492-410e-4c17-b62e-5224b4b55509" LastKnownName="Odbieranie informacji o pojedynku" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="2e5f2ed1-6f3a-47be-acc6-c0e67141054f" name="Client" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="8a18bbd3-de91-4ac6-9da3-76e47f0562db" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="910b3f32-4dd1-4468-83da-3f973a7d8500" name="Odbieranie informacji o pojedynku" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="99c14ade-7ae6-44dd-b58f-65469cdf7814" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="34686d23-dcd6-4a56-9ff1-ba9f28536847" />
+          </association>
+        </targetEnds>
+      </actor>
+    </useCaseModelRootHasTypes>
+    <packageHasNamedElement>
+      <useCase Id="2d58f606-2785-44c7-830a-55acac27c66f" name="Zarządzanie grą wieloosobową" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="6c99e877-ecac-46ed-a293-2f4f9010279b" />
+        <additions>
+          <include Id="b739c0c5-ce95-4af9-96e7-c2890a0abf12">
+            <useCaseMoniker Id="ee623262-df74-4a08-a437-77ee2141d66b" LastKnownName="Wybranie przeciwnika z listy dostępnych" />
+            <elementDefinition Id="7817651e-f2fd-4983-968c-319d2de6e4de" />
+          </include>
+          <include Id="823f8500-ad73-49c4-9d6b-d3e437b6dc04">
+            <useCaseMoniker Id="d255ab1e-3ac9-4434-a111-649599169696" LastKnownName="Zaakceptowanie pojedynku" />
+            <elementDefinition Id="a10476f1-439d-4df0-9999-c1bb54bcd60c" />
+          </include>
+          <include Id="e7c30c52-b0b5-48b2-a33f-72b9c83b2749">
+            <useCaseMoniker Id="9f7ddfd7-3485-45a5-a991-85a549728b73" LastKnownName="Odrzucenie pojedynku" />
+            <elementDefinition Id="d7aba087-565b-49af-a634-44ed8e6bc592" />
+          </include>
+        </additions>
+        <subjects>
+          <subsystemMoniker Id="cd47ec62-6ddf-4e85-bab6-d081f8125284" LastKnownName="Client" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="ee623262-df74-4a08-a437-77ee2141d66b" name="Wybranie przeciwnika z listy dostępnych" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="216ae310-4083-4850-8fb1-c671438d8490" />
+        <subjects>
+          <subsystemMoniker Id="cd47ec62-6ddf-4e85-bab6-d081f8125284" LastKnownName="Client" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="d255ab1e-3ac9-4434-a111-649599169696" name="Zaakceptowanie pojedynku" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="58081a80-fd8d-40d3-9e1b-f409a9e6843a" />
+        <subjects>
+          <subsystemMoniker Id="cd47ec62-6ddf-4e85-bab6-d081f8125284" LastKnownName="Client" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="9f7ddfd7-3485-45a5-a991-85a549728b73" name="Odrzucenie pojedynku" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="0a73d15c-124c-4656-9483-de93bba25f70" />
+        <subjects>
+          <subsystemMoniker Id="cd47ec62-6ddf-4e85-bab6-d081f8125284" LastKnownName="Client" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="6d86a1ae-e075-4d86-a72c-bc9ddebe7b93" name="Komunikowanie się z przeciwnikiem" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="12481bbd-2f98-4fdf-9b13-a16c77d8819b" />
+        <subjects>
+          <subsystemMoniker Id="cd47ec62-6ddf-4e85-bab6-d081f8125284" LastKnownName="Client" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="f8694a5c-e8ed-430e-8f4c-a77e85e9a040" name="Komunikacja za pomocą czatu" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="29c9e207-8df3-40c9-89bc-ca3f65f8c9d2" />
+        <extendedCases>
+          <extend Id="fd9a2561-1b0a-4d36-9173-e68754f2870f">
+            <useCaseMoniker Id="6d86a1ae-e075-4d86-a72c-bc9ddebe7b93" LastKnownName="Komunikowanie się z przeciwnikiem" />
+            <elementDefinition Id="f38c3920-c66d-4cbf-b79a-f69af6b9cc54" />
+          </extend>
+        </extendedCases>
+        <subjects>
+          <subsystemMoniker Id="cd47ec62-6ddf-4e85-bab6-d081f8125284" LastKnownName="Client" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="fce7702e-8f41-46b5-95c3-0b3378276a9e" name="Komunikacja  za pomocą wideorozmowy" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="177cadf2-83aa-455c-9dc4-d3c1526913e6" />
+        <extendedCases>
+          <extend Id="7d8231aa-11a7-46c8-a89f-1be5d66d5aeb">
+            <useCaseMoniker Id="6d86a1ae-e075-4d86-a72c-bc9ddebe7b93" LastKnownName="Komunikowanie się z przeciwnikiem" />
+            <elementDefinition Id="dda85149-2fb7-4df2-b722-01f1979d0798" />
+          </extend>
+        </extendedCases>
+        <subjects>
+          <subsystemMoniker Id="cd47ec62-6ddf-4e85-bab6-d081f8125284" LastKnownName="Client" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="7b56ff3b-8aa6-40d0-907e-4cb27c6950cb" name="Rejestrowanie klienta na serwerze" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="c88e6602-450f-4b67-9df0-35c922e300b6" />
+        <extendedCases>
+          <extend Id="765cfb5a-e64b-4dae-adf7-2d278797d449">
+            <useCaseMoniker Id="95b97e1a-4f1e-4d99-82db-02fc5aae49f7" LastKnownName="Wysyłanie danych do serwera" />
+            <elementDefinition Id="f545064c-9148-4e41-b4a2-318a85f58847" />
+          </extend>
+        </extendedCases>
+        <subjects>
+          <subsystemMoniker Id="cd47ec62-6ddf-4e85-bab6-d081f8125284" LastKnownName="Client" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="0369e214-5c0f-4720-b268-9224032c38ae" name="Wysyłanie wykonanego ruchu do serwera" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="7b2827d2-6b0a-468a-89b2-954d64261b30" />
+        <extendedCases>
+          <extend Id="3d46545a-6727-4845-9d24-ddb601f7bb68">
+            <useCaseMoniker Id="b626b455-b092-46d4-b97c-3f0530950038" LastKnownName="Wysyłanie informacji o grze wieloosobowej" />
+            <elementDefinition Id="9515db81-38de-42d3-a67b-e53126a29f04" />
+          </extend>
+        </extendedCases>
+        <subjects>
+          <subsystemMoniker Id="cd47ec62-6ddf-4e85-bab6-d081f8125284" LastKnownName="Client" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="ed8d0a79-8086-46fb-a8c1-28bfd81567b1" name="Wysyłanie wiadomości czatu do serwera" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="92e486e5-b521-4a57-84eb-66d813514478" />
+        <extendedCases>
+          <extend Id="fc24e4ec-3401-420d-83dd-d2721ead4525">
+            <useCaseMoniker Id="95b97e1a-4f1e-4d99-82db-02fc5aae49f7" LastKnownName="Wysyłanie danych do serwera" />
+            <elementDefinition Id="67833c9d-1933-4aff-8fce-e2a2d640aa75" />
+          </extend>
+        </extendedCases>
+        <subjects>
+          <subsystemMoniker Id="cd47ec62-6ddf-4e85-bab6-d081f8125284" LastKnownName="Client" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="9e5d459b-4136-4133-8998-dc598f85a11c" name="Obsługa wideorozmowy" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="7b74affe-e508-417e-92de-f4848fb9375c" />
+        <extendedCases>
+          <extend Id="3d5dd97d-cefc-4ca5-b15d-0feacf154fd5">
+            <useCaseMoniker Id="95b97e1a-4f1e-4d99-82db-02fc5aae49f7" LastKnownName="Wysyłanie danych do serwera" />
+            <elementDefinition Id="935ca2fb-c9a5-446f-b231-21f263235b21" />
+          </extend>
+        </extendedCases>
+        <subjects>
+          <subsystemMoniker Id="cd47ec62-6ddf-4e85-bab6-d081f8125284" LastKnownName="Client" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="d397d248-5372-46da-85e9-f962ae8520c4" name="Ustawienie jakości wideorozmowy" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="ccc893df-e340-4f17-9793-440555d9b83e" />
+        <subjects>
+          <subsystemMoniker Id="cd47ec62-6ddf-4e85-bab6-d081f8125284" LastKnownName="Client" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="64dbd3ca-3043-43d7-9cd8-a0988ac7c982" name="Wysyłanie wyniku do serwera" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="d5032e21-b599-480a-9155-8f89c1fd5b55" />
+        <extendedCases>
+          <extend Id="e6295122-cde8-43f3-867d-37a3cfdebc4d">
+            <useCaseMoniker Id="95b97e1a-4f1e-4d99-82db-02fc5aae49f7" LastKnownName="Wysyłanie danych do serwera" />
+            <elementDefinition Id="bad32d63-777b-44f4-a67a-59c2caa50768" />
+          </extend>
+        </extendedCases>
+        <subjects>
+          <subsystemMoniker Id="cd47ec62-6ddf-4e85-bab6-d081f8125284" LastKnownName="Client" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="95b97e1a-4f1e-4d99-82db-02fc5aae49f7" name="Wysyłanie danych do serwera" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="166ac0ef-8477-4de5-82c4-5664fde9e7b4" />
+        <subjects>
+          <subsystemMoniker Id="cd47ec62-6ddf-4e85-bab6-d081f8125284" LastKnownName="Client" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="b626b455-b092-46d4-b97c-3f0530950038" name="Wysyłanie informacji o grze wieloosobowej" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="17ea550a-1b02-4b6a-87c0-666c025b4183" />
+        <extendedCases>
+          <extend Id="febd1e03-20f8-4387-9221-928545062540">
+            <useCaseMoniker Id="95b97e1a-4f1e-4d99-82db-02fc5aae49f7" LastKnownName="Wysyłanie danych do serwera" />
+            <elementDefinition Id="78790d47-0c5f-46b6-be02-5f72f33cc6db" />
+          </extend>
+        </extendedCases>
+        <subjects>
+          <subsystemMoniker Id="cd47ec62-6ddf-4e85-bab6-d081f8125284" LastKnownName="Client" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="00405929-b5dd-473d-9c12-7112e27e1be2" name="Wizualizacja ruchu przeciwnika" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="4e42b3d8-1080-45a2-9c6e-720aa625667a" />
+        <subjects>
+          <subsystemMoniker Id="cd47ec62-6ddf-4e85-bab6-d081f8125284" LastKnownName="Client" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="2d07abce-b505-4f0b-8cb3-6a1b9009ae48" name="Wysyłanie stanu gry" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="9e241d94-0b72-4c2a-9a31-eb5eef772033" />
+        <extendedCases>
+          <extend Id="52d29f46-479e-475e-a2cf-88f4fd5f4c3d">
+            <useCaseMoniker Id="b626b455-b092-46d4-b97c-3f0530950038" LastKnownName="Wysyłanie informacji o grze wieloosobowej" />
+            <elementDefinition Id="e48e68ca-71b7-4f35-aab4-b6974c58ec9f" />
+          </extend>
+        </extendedCases>
+        <subjects>
+          <subsystemMoniker Id="cd47ec62-6ddf-4e85-bab6-d081f8125284" LastKnownName="Client" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="492e1af0-5851-4955-8e8a-e4f7d3abb878" name="Odbieranie informacji o dostępnych przeciwnikach" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="141e15c4-8617-47f8-8176-b8184972fb0a" />
+        <extendedCases>
+          <extend Id="04ce0182-d290-4498-ad6d-4697bf8cff83">
+            <useCaseMoniker Id="2afc211c-f128-4b22-ba7d-ee9e4dab5140" LastKnownName="Odbieranie informacji od serwera" />
+            <elementDefinition Id="efb14951-9d39-45bd-9595-65254cb7ff02" />
+          </extend>
+        </extendedCases>
+        <subjects>
+          <subsystemMoniker Id="cd47ec62-6ddf-4e85-bab6-d081f8125284" LastKnownName="Client" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="23f6c2b2-5b7b-4a37-94aa-819518e73bd3" name="Odbieranie informacji o ruchu przeciwnika" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="0449c4d1-9788-46a9-aecf-cd50c77a96bf" />
+        <extendedCases>
+          <extend Id="453b187c-46d5-471d-9297-a37f0c1db623">
+            <useCaseMoniker Id="2afc211c-f128-4b22-ba7d-ee9e4dab5140" LastKnownName="Odbieranie informacji od serwera" />
+            <elementDefinition Id="e07107ae-d937-4431-ab01-f49099e9acea" />
+          </extend>
+        </extendedCases>
+        <subjects>
+          <subsystemMoniker Id="cd47ec62-6ddf-4e85-bab6-d081f8125284" LastKnownName="Client" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="71f5d492-410e-4c17-b62e-5224b4b55509" name="Odbieranie informacji o pojedynku" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="25d2813d-804b-4120-ab30-b9a70e8f8172" />
+        <extendedCases>
+          <extend Id="6de6b20f-27e7-4444-ba67-346c9f258337">
+            <useCaseMoniker Id="2afc211c-f128-4b22-ba7d-ee9e4dab5140" LastKnownName="Odbieranie informacji od serwera" />
+            <elementDefinition Id="462c407f-7deb-4baf-8a08-dc7c320879c1" />
+          </extend>
+        </extendedCases>
+        <subjects>
+          <subsystemMoniker Id="cd47ec62-6ddf-4e85-bab6-d081f8125284" LastKnownName="Client" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="2afc211c-f128-4b22-ba7d-ee9e4dab5140" name="Odbieranie informacji od serwera" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="f6a3aba7-6231-4952-8fff-350fbd57840b" />
+        <subjects>
+          <subsystemMoniker Id="cd47ec62-6ddf-4e85-bab6-d081f8125284" LastKnownName="Client" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+  </packagedElements>
+  <package Id="c169d41a-a59b-4983-a523-5336ec1ee34e" name="ModelingProject">
+    <elementDefinition Id="9f370d29-5e44-49a4-b55f-85e169ee12bf" />
+    <profileInstances>
+      <packageHasProfileInstances Id="3467b5a4-18be-404d-a490-b689f6ff9eed">
+        <profileInstance Id="46545809-e427-4b08-831b-23c7c89af792" name="StandardProfileL2">
+          <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+        </profileInstance>
+        <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+      </packageHasProfileInstances>
+      <packageHasProfileInstances Id="02631968-b694-4777-ab74-db0ea3b7cb39">
+        <profileInstance Id="49c528e8-7b88-46f9-9b15-4096c9338521" name="StandardProfileL3">
+          <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+        </profileInstance>
+        <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+      </packageHasProfileInstances>
+    </profileInstances>
+  </package>
+</useCaseModelRoot>
